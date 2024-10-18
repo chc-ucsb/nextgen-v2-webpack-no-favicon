@@ -1,0 +1,99 @@
+{
+  "theme": "ExtJSNeptune",
+  "cssFallback": true,
+  "blocks": [
+    {
+      "block": "top",
+      "name": "cHeader",
+      "import": "js.tools.shared.cHeader.cHeader",
+      "add": true,
+      "width": "auto",
+      "height": 60,
+      "cssClass": "",
+      "bodyStyle": "padding: 10px",
+      "collapsible": true,
+      "content": "<h1 class='main'>Helloworld </h1>",
+      "link": "http://earlywarning.usgs.gov"
+    },
+    {
+      "block": "left",
+      "name": "cTOCDesktopLike",
+      "import": "js.tools.shared.cTOCDesktopLike.cTOCDesktopLike",
+      "add": true,
+      "width": 270,
+      "height": "auto",
+      "title": "TOC",
+      "collapsible": true,
+      "collapsed": false,
+      "blocks": [
+        {
+          "block": "top",
+          "name": "cTocContainer",
+          "import": "js.tools.shared.cTocContainer.cTocContainer",
+          "width": "100%",
+          "height": "auto",
+          "add": true,
+          "blocks": [
+            {
+              "name": "cDefaultToc",
+              "import": "js.tools.shared.cDefaultToc.cDefaultToc",
+              "add": true,
+              "width": "95%",
+              "height": "auto",
+              "titleLength": 30,
+              "hideDatePicker": true
+            }
+          ]
+        },
+
+        {
+          "name": "cTransparency",
+          "import": "js.tools.shared.cTransparency.cTransparency",
+          "add": false,
+          "height": 100,
+          "width": "90%"
+        }
+      ],
+      "toolbar": {
+        "position": "top",
+        "overflowMenu": true,
+        "items": [
+          {
+            "name": "cRegionTool",
+            "add": false,
+            "width": 200
+          }
+        ]
+      }
+    },
+    {
+      "block": "center",
+      "name": "cMapWindow",
+      "import": "js.tools.shared.cMapWindow.cMapWindow",
+      "add": true,
+      "collapsible": false,
+      "hideTitle": true,
+      "toolbar": {
+        "position": "top",
+        "add": true,
+        "overflowMenu": false,
+        "style": "padding: 0 0 0 5px;",
+        "items": [
+
+        ]
+      },
+      "blocks": [
+        {
+          "name": "cMapPanel",
+          "import": "js.tools.shared.cMapPanel.cMapPanel",
+          "add": true,
+          "addScaleLine": false,
+          "interactions": [
+            "pan",
+            "zoom"
+          ]
+        }
+      ]
+    }
+  ]
+}

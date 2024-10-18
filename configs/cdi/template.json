@@ -1,0 +1,464 @@
+{
+	"theme": "ExtJSNeptune",
+	"cssFallback": true,
+	"blocks": [{
+		"block": "top",
+		"name": "cHeader",
+        "import": "js.tools.shared.cHeader.cHeader",
+		"add": true,
+		"width" : "auto",
+		"height" : 69,
+		"cssClass": "",
+        "collapsible": false,
+        "collapsed": false,
+		"resizable": false,
+		"content": "<header id='navbar' class='header-nav'  role='banner'><div class='tmp-container'><div class='header-search'><a class='logo-header' href='https://www.usgs.gov/' title='Home'><img class='img'  src='/cdiviewer/images/logo.png' alt='Home' /></a><form action='https://www.usgs.gov/science-explorer-results' method='GET' id='search-box'><div class='a-wrapper'><label for='se_search' class='only'>Search</label><input id='se_search' type='search' name='es' placeholder='Search'><button class='fa fa-search' type='submit'<span class='only'></span></button></div></form></div></div></header>",
+		"link": "http://earlywarning.usgs.gov"
+	},
+    {
+        "block": "left",
+		"name": "cTOCDesktopLike",
+		"resizable": false,
+        "import": "js.tools.shared.cTOCDesktopLike.cTOCDesktopLike",
+		"add": true,
+		"width" : 270,
+		"height" : "auto",
+        "title": "TOC",
+        "collapsible": true,
+        "collapsed": false,
+        "blocks": [{
+            "block": "top",
+            "name": "cTocContainer",
+            "import": "js.tools.shared.cTocContainer.cTocContainer",
+            "width": "100%",
+            "height": "auto",
+            "add": true,
+            "blocks": [{
+                "name": "cDefaultToc",
+                "import": "js.tools.shared.cDefaultToc.cDefaultToc",
+                "add": true,
+                "width": "95%",
+                "height": "auto",
+                "titleLength":30,
+                "hideDatePicker": true
+            }]
+        }],
+        "toolbar": {
+            "position": "top",
+            "overflowMenu": false,
+            "add": false,
+            "items": [{
+                "name": "cRegionTool",
+                "import": "js.tools.shared.cRegionTool.cRegionTool",
+                "add": true,
+                "width": 200
+            }]
+        }
+    },
+    {
+        "block": "center",
+        "name": "cMapWindow",
+        "import": "js.tools.shared.cMapWindow.cMapWindow",
+        "add": true,
+        "collapsible": false,
+		"resizable": false,
+        "hideTitle" : true,
+        "toolbar": {
+            "position": "top",
+            "add": true,
+            "overflowMenu": false,
+            "style": "padding: 0 0 0 5px;",
+            "items": [{
+                "name": "cToolGroupPanel",
+                "import": "js.tools.shared.cToolGroupPanel.cToolGroupPanel",
+                "add": true,
+                "width": 150,
+                "height": 80,
+                "label": "<div>Step 1</div><div>Region Selector</div>",
+                "blocks": [{
+                    "name": "cRegionTool",
+                    "import": "js.tools.mtbs.cRegionTool.cRegionTool",
+                    "add": true,
+                    "width": 130,
+                    "layers": [{
+                        "id": "pilot_collections",
+                        "type": "overlay"
+                    }, {
+                        "id": "cdi_tiles",
+                        "type": "overlay"
+                    }]
+                }]
+            }, {
+                "name": "cSeparator",
+                "import": "js.tools.shared.cSeparator.cSeparator",
+                "add": true,
+                "height": 70,
+                "style": "border-left-color: #157fcc;"
+            }, {
+                "name": "cToolGroupPanel",
+                "import": "js.tools.shared.cToolGroupPanel.cToolGroupPanel",
+                "add": true,
+                "width": 160,
+                "height": 80,
+                "label": "<div>Step 2</div><div>Area Selector</div>",
+                "blocks": [
+                {
+                    "name": "cSelectBBOXTool",
+                    "import": "js.tools.shared.cSelectBBOXTool.cSelectBBOXTool",
+                    "add": true,
+                    "cssClass": "",
+                    "tooltip": "Select Bounding Box",
+                    "layers": [{
+                        "id": "pilot_collections",
+                        "type": "overlay"
+                    }, {
+                        "id": "cdi_tiles",
+                        "type": "overlay"
+                    }]
+                },
+                {
+                    "name": "cSelectRegionTool",
+                    "import": "js.tools.mtbs.cSelectRegionTool.cSelectRegionTool",
+                    "add": true,
+                    "cssClass": "",
+                    "tooltip": "Select on Map",
+                    "layers": [{
+                        "id": "pilot_collections",
+                        "type": "overlay"
+                    }, {
+                        "id": "cdi_tiles",
+                        "type": "overlay"
+                    }, {
+                        "id": "states",
+                        "type": "parent",
+                        "loadAllFeatures": true,
+                        "featureInfo": [{
+                            "displayName": "State",
+                            "propertyName": "name",
+                            "type": "display"
+                        }, {
+                            "displayName": "State FIPS",
+                            "propertyName": "statefp",
+                            "type": "id"
+                        }]
+                    }, {
+                        "id": "counties",
+                        "type": "child",
+                        "loadAllFeatures": true,
+                        "featureInfo": [{
+                            "displayName": "County",
+                            "propertyName": "name",
+                            "type": "display"
+                        }, {
+                            "displayName": "Fips Code",
+                            "propertyName": "geoid",
+                            "type": "id"
+                        }]
+                    }, {
+                        "id": "watersheds",
+                        "type": "child",
+                        "loadAllFeatures": false,
+                        "featureInfo": [{
+                            "displayName": "Watershed",
+                            "propertyName": "name",
+                            "type": "display"
+                        }, {
+                            "displayName": "Watershed Id",
+                            "propertyName": "globalid",
+                            "type": "id"
+                        }]
+                    },
+                    {
+                        "id": "protectedAreas",
+                        "type": "child",
+                        "loadAllFeatures": false,
+                        "featureInfo": [{
+                            "displayName": "Protected Area",
+                            "propertyName": "label",
+                            "type": "display"
+                        }, {
+                            "displayName": "Id",
+                            "propertyName": "uniqname",
+                            "type": "id"
+                        }]
+                    }],
+                    "items": [{
+                        "name": "cSelectRegionToolRadioGroup",
+                        "import": "js.tools.shared.cSelectRegionToolRadioGroup.cSelectRegionToolRadioGroup",
+                        "add": true,
+                        "blocks": [{
+                            "name": "cLayerRadioButtons",
+                            "import": "js.tools.shared.cLayerRadioButtons.cLayerRadioButtons",
+                            "add": true,
+                            "layers": [{
+                                "id": "states"
+                            }, {
+                                "id": "counties"
+                            }, {
+                                "id": "watersheds"
+                            }, {
+                                "id": "protectedAreas"
+                            }]
+                        }]
+                    }]
+                },
+                {
+                    "name": "cRegionSelectorMenu",
+                    "import": "js.tools.shared.cRegionSelectorMenu.cRegionSelectorMenu",
+                    "add": true,
+                    "width": 45,
+                    "cssClass": "",
+                    "tooltip": "Select from List",
+                    "items": [{
+                        "name": "cStateTool",
+                        "import": "js.tools.mtbs.cStateTool.cStateTool",
+                        "add": true,
+                        "layers": [{
+                            "id": "states",
+                            "type": "boundary",
+                            "featureInfo": [{
+                                "displayName": "State",
+                                "propertyName": "name",
+                                "type": "display"
+                            }, {
+                                "displayName": "State FIPS",
+                                "propertyName": "statefp",
+                                "type": "id"
+                            }]
+                        }, {
+                            "id": "pilot_collections",
+                            "type": "overlay"
+                        }, {
+                            "id": "cdi_tiles",
+                            "type": "overlay"
+                        }]
+                    }, {
+                        "block": "center",
+                        "name": "cSelectRegionMenuRadioGroup",
+                        "import": "js.tools.shared.cSelectRegionMenuRadioGroup.cSelectRegionMenuRadioGroup",
+                        "add": true,
+                        "blocks": [{
+                            "name": "cLayerRadioButtons",
+                            "import": "js.tools.shared.cLayerRadioButtons.cLayerRadioButtons",
+                            "add": true,
+                            "layers": [{
+                                "id": "counties"
+                            }, {
+                                "id": "watersheds"
+                            },{
+                                "id": "protectedAreas"
+                            }]
+                        }]
+                    }, {
+                        "name": "cSubStateTool",
+                        "import": "js.tools.mtbs.cSubStateTool.cSubStateTool",
+                        "add": true,
+                        "layers": [{
+                            "id": "states",
+                            "type": "parentBoundary",
+                            "featureInfo": [{
+                                "displayName": "State",
+                                "propertyName": "name",
+                                "type": "display"
+                            }, {
+                                "displayName": "State FIPS",
+                                "propertyName": "statefp",
+                                "type": "id"
+                            }]
+                        }, {
+                            "id": "counties",
+                            "type": "childBoundary",
+                            "featureInfo": [{
+                                "displayName": "County",
+                                "propertyName": "name",
+                                "type": "display"
+                            }, {
+                                "displayName": "FIPS Code",
+                                "propertyName": "geoid",
+                                "type": "id"
+                            }]
+                        }, {
+                            "id": "watersheds",
+                            "type": "childBoundary",
+                            "featureInfo": [{
+                                "displayName": "Watershed",
+                                "propertyName": "name",
+                                "type": "display"
+                            }, {
+                                "displayName": "Id",
+                                "propertyName": "globalid",
+                                "type": "id"
+                            }]
+                        },{
+                            "id": "protectedAreas",
+                            "type": "childBoundary",
+                            "featureInfo": [{
+                                "displayName": "Protected Area",
+                                "propertyName": "label",
+                                "type": "display"
+                            }, {
+                                "displayName": "Id",
+                                "propertyName": "uniqname",
+                                "type": "id"
+                            }]
+                        }, {
+                            "id": "pilot_collections",
+                            "type": "overlay"
+                        }, {
+                            "id": "cdi_tiles",
+                            "type": "overlay"
+                        }]
+                    }]
+                }]
+            }, {
+                "name": "cSeparator",
+                "import": "js.tools.shared.cSeparator.cSeparator",
+                "add": true,
+                "height": 70,
+                "style": "border-left-color: #157fcc;"
+            }, {
+                "name": "cResetQuery",
+                "import": "js.tools.shared.cResetQuery.cResetQuery",
+                "add": true
+            }]
+        },
+        "blocks":[{
+            "name": "cMapPanel",
+            "import": "js.tools.shared.cMapPanel.cMapPanel",
+            "add": true,
+            "interactions": [
+                "pan",
+                "zoom"
+            ],
+            "projection": "EPSG:6350",
+            "center": [-368276.33306164667, 1867977.2899567694],
+            "max_extent": [-2630685.5073226574, 105976.37542327214, 2500261.155798886, 3362154.0654811747]
+        }]
+    },
+	{
+        "block": "bottom",
+        "collapsible": true,
+        "collapsed": false,
+		"resizable": false,
+        "add": true,
+        "title": "Image Processing",
+        "height": 300,
+        "blocks": [{
+            "name": "cColumnContainer",
+            "import": "js.tools.shared.cColumnContainer.cColumnContainer",
+			"resizable": false,
+            "add": true,
+            "width": "100%",
+            "height": 260,
+            "blocks": [{
+                "name": "cSelectProjectsList",
+                "import": "js.tools.cdi.cSelectProjectsList.cSelectProjectsList",
+                "add": false,
+                "width": 600,
+                "height": 230,
+                "layers": [{
+                    "id": "pilot_collections",
+                    "featureInfo": [{
+                        "propertyName": "project_id",
+                        "type": "id"
+                    }]
+                }]
+            }, {
+                "name": "cFeatureInfoTable",
+                "import": "js.tools.cdi.cFeatureInfoTable.cFeatureInfoTable",
+                "height": 225,
+                "width": 800,
+                "add": true,
+                "recordsPerPageOptions": [50, 100, 200, 500],
+                "layers": [{
+                    "id": "pilot_collections",
+                    "featureInfo": [{
+                        "displayName": "Project Id",
+                        "propertyName": "project_id",
+                        "type": "id",
+                        "dataType": "string",
+                        "columnWidth": 180
+                    }, {
+                        "displayName": "State",
+                        "propertyName": "state",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 70
+                    }, {
+                        "displayName": "Start Date",
+                        "propertyName": "s_date",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 100
+                    }, {
+                        "displayName": "End Date",
+                        "propertyName": "e_date",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 100
+                    }, {
+                        "displayName": "Entry Date",
+                        "propertyName": "entry_date",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 100
+                    }, {
+                        "displayName": "Reference System",
+                        "propertyName": "refsys",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 100
+                    }, {
+                        "displayName": "Vendor",
+                        "propertyName": "vendor",
+                        "type": "display",
+                        "dataType": "string",
+                        "columnWidth": 100
+                    }]
+                }]
+            }, {
+                "name": "cSelectProductsList",
+                "import": "js.tools.cdi.cSelectProductsList.cSelectProductsList",
+                "add": true,
+                "width": 230,
+                "height": 230
+            }, {
+                "name": "cSelectResolutionRadios",
+                "import": "js.tools.cdi.cSelectResolutionRadios.cSelectResolutionRadios",
+                "add": true,
+                "width": 130,
+                "height": 230,
+                "selections": [{
+                    "text": "10m",
+                    "value": "10"
+                }, {
+                    "text": "25m",
+                    "value": "25"
+                }]
+            }, {
+                "add": true,
+                "width": 80,
+                "height": 230,
+				"resizable": false,
+                "blocks": [{
+                    "name": "cMergeProductsBtn",
+                    "import": "js.tools.cdi.cMergeProductsBtn.cMergeProductsBtn",
+                    "add": true,
+                    "text": "Merge"
+                }]
+            }]
+        }]
+    }, {
+		"block": "bottom",
+		"name": "cFooter",
+        "import": "js.tools.shared.cFooter.cFooter",
+		"add": true,
+		"width" : "auto",
+		"height" : 94,
+		"cssClass": "",
+        "collapsible": false,
+        "collapsed": false,
+		"resizable": false,
+		"content": "<footer class='footer'><div class='tmp-container'><div class='footer-doi'><ul class='menu nav'><li class='first leaf menu-links menu-level-1'><a href='https://www.doi.gov/privacy'>DOI Privacy Policy</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.usgs.gov/laws/policies_notices.html'>Legal</a></li><li class='leaf menu-links menu-level-1'><a href='https://www2.usgs.gov/laws/accessibility.html'>Accessibility</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.usgs.gov/sitemap.html'>Site Map</a></li><li class='last leaf menu-links menu-level-1'><a href='https://answers.usgs.gov/'>Contact USGS</a></li></ul></div><hr><div class='footer-doi'><ul class='menu nav'><li class='first leaf menu-links menu-level-1'><a href='https://www.doi.gov/'>U.S. Department of the Interior</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.doioig.gov/'>DOI Inspector General</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.whitehouse.gov/'>White House</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.whitehouse.gov/omb/management/egov/'>E-gov</a></li><li class='leaf menu-links menu-level-1'><a href='https://www.doi.gov/pmb/eeo/no-fear-act'>No Fear Act</a></li><li class='last leaf menu-links menu-level-1'><a href='https://www2.usgs.gov/foia'>FOIA</a></li></ul></div><div class='footer-social-links'><ul class='social'><li class='follow'>Follow</li><li class='twitter'><a href='https://twitter.com/usgs' target='_blank'><i class='fa fa-twitter-square'><span class='only'>Twitter</span></i></a></li><li class='facebook'><a href='https://facebook.com/usgeologicalsurvey' target='_blank'><i class='fa fa-facebook-square'><span class='only'>Facebook</span></i></a></li><li class='googleplus'><a href='https://plus.google.com/112624925658443863798/posts' target='_blank'><i class='fa fa-google-plus-square'><span class='only'>Google+</span></i></a></li><li class='github'><a href='https://github.com/usgs' target='_blank'><i class='fa fa-github'><span class='only'>GitHub</span></i></a></li><li class='flickr'><a href='https://flickr.com/usgeologicalsurvey' target='_blank'><i class='fa fa-flickr'><span class='only'>Flickr</span></i></a></li><li class='youtube'><a href='http://youtube.com/usgs' target='_blank'><i class='fa fa-youtube-play'><span class='only'>YouTube</span></i></a></li><li class='instagram'><a href='https://instagram.com/usgs' target='_blank'><i class='fa fa-instagram'><span class='only'>Instagram</span></i></a></li></ul></div></div></footer>"
+	}]
+}

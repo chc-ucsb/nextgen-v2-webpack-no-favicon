@@ -1,0 +1,22 @@
+{
+    "configurationFiles": {
+        "data": {
+            "source" : "configs/glc/data.json",
+            "type" : "json",
+            "description" : "Data Configuration: This is the main config that defines layers to display in the map among other things"
+        },
+        "template": {
+            "source" : "configs/glc/template.json",
+            "type" : "json",
+            "description" : "Template Configuration: Configuration for blocks"
+        },
+        "analytics": {
+            "source" : "configs/glc/analytics.js",
+            "description" : "Google & Matomo Analytics"
+        }
+    },
+	"service_check":{
+		"source" : "https://earlywarning.usgs.gov/api/rest/service-check/geoserver,mysql,pgsql"
+	},
+    "debugMode":false
+}

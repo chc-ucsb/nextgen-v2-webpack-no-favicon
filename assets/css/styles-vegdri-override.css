@@ -1,0 +1,34 @@
+.ol-notification > div, .ol-notification > div:hover {
+  background-color: rgba(255,255,255,0.8) !important;
+}
+
+.periodicButton {
+  font-family: Arial, sans-serif;
+}
+
+.ol-control {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+
+/* Move the Zoom control (+/-) down to accommodate the overlay menu button */
+/*.ol-zoom {*/
+/*  top: 3.5em !important;*/
+/*}*/
+
+/*!* Position the Overlay Menu button *!*/
+/*.ol-control.menu {*/
+/*  top: .5em !important;*/
+/*  left: .5em !important;*/
+/*}*/
+
+.ol-notification > div {
+  max-height: 7em !important;
+}
+
+.no-hover{
+  pointer-events: none;
+  border: none;
+  background: none;
+}
+

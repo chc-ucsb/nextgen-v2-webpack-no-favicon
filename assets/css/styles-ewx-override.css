@@ -1,0 +1,53 @@
+.ol-notification > div, .ol-notification > div:hover {
+  background-color: rgba(255,255,255,0.8) !important;
+}
+
+.periodicButton {
+  font-family: Arial, sans-serif;
+}
+
+.ol-control.ol-bar.ol-group {
+  margin: 1px 5px 1px 5px !important;
+}
+
+.ol-control {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+
+/* Move the Zoom control (+/-) down to accommodate the overlay menu button */
+/*.ol-zoom {*/
+/*  top: 3.5em !important;*/
+/*}*/
+
+/*!* Position the Overlay Menu button *!*/
+/*.ol-control.menu {*/
+/*  top: .5em !important;*/
+/*  left: .5em !important;*/
+/*}*/
+
+/* .ol-notification > div change max-height 7em to 14em to fit four rows of periods in the datepickertool. */
+.ol-notification > div {
+  max-height: 14em !important;
+}
+
+.no-hover{
+  pointer-events: none;
+  border: none;
+  background: none;
+}
+
+.column {
+  text-align: center;
+}
+
+/* set max-width in cDatePickerTool so new periodic button row divs will append beneath each other */
+div.ol-notification.ol-unselectable.ol-control div{
+  max-width:37em;
+}
+
+/* Hard set size for periodic buttons to remain consistent when changing font size */
+.ol-notification.ol-unselectable.ol-control div div div div button {
+  height:24px;
+  width:26px;
+}

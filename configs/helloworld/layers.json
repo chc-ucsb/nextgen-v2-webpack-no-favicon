@@ -1,0 +1,87 @@
+{
+  "layers": {
+    "overlays": [
+      {
+        "type": "layer",
+        "id": "firePoints",
+        "name": "mtbs:mtbs_fire_points_2015",
+        "title": "Fire Points",
+        "description": "This dataset is a vector point shapefile of the locations of all currently completed MTBS fires occurring between calendar year 1984 and 2015 for the continental United States, Alaska, Hawaii and Puerto Rico.  <a href='http://edcintl.cr.usgs.gov/downloads/sciweb1/shared/MTBS_Fire/data/composite_data/fod_pt_shapefile/mtbs_fod_pts_data.zip'> Download</a> the shapefile.",
+        "source": {
+          "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+          "wcs": "https://edcintl.cr.usgs.gov/geoserver/wcs?",
+          "wfs": "https://edcintl.cr.usgs.gov/geoserver/wfs?",
+          "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+        },
+        "loadOnly": false,
+        "display": false,
+        "mask": false,
+        "zIndex": 0,
+        "transparency": false,
+        "chartIds": [],
+        "srs": "EPSG:3857",
+        "geometryName": "geom"
+      }
+    ],
+    "boundaries": [
+      {
+        "type": "folder",
+        "title": "Boundaries",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "id": "states",
+            "name": "mtbs:mtbs_states",
+            "title": "States",
+            "description": "Cartographic boundaries for all U.S. states; produced by the U.S. Census Bureau as part of the national TIGER Database at a resolution of 1:5,000,000.",
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "wfs": "https://edcintl.cr.usgs.gov/geoserver/wfs?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "infoFormat": "application/json",
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "regionIds": [
+              "us"
+            ],
+            "srs": "EPSG:3857",
+            "geometryName": "geom",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": ""
+            }
+          }
+        ]
+      }
+    ],
+    "baselayers": [
+      {
+        "type": "folder",
+        "title": "Base Layers",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "name": "bing_0",
+            "title": "Bing Road",
+            "description": "Bing Layer",
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "srs": "EPSG:3857",
+            "loaded": "true",
+            "brand": "bing",
+            "key": "Gc51rU1gAPZXqFEQTMrA~MUp98uEB4gnH03bwcMZfMQ~AofqIHvy_35WHkXHCyTAbGBfyTgycfUjPQosoS34S3HJNHOK0MFJXANeFZOiL1JC",
+            "imagerySet": "Road",
+            "comments": "imagery set values can be Road,Aerial,AerialWithLabels,collinsBart,ordnanceSurvey"
+          }
+        ]
+      }
+    ]
+  }
+}

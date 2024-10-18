@@ -1,0 +1,348 @@
+{
+	"analytics":{
+	"onlyLoadIfHostname":"earlywarning.usgs.gov",
+	"includeAnalyticsJSPath":"configs/google-analytics.js"
+	}
+	,
+    "header": {
+      "html": "<h1 class='main'>EWX Next Generation Viewer</h1>",
+      "title": "EWX Next Generation Viewer",
+      "padding": "10px",
+      "height": 60,
+      "leftSideLogo": "./images/fewsusgs1.jpg",
+      "rightSideLogo": "./images/fewsnet.png"
+    },
+    "intro": {
+      "title": "EWX Viewer",
+      "description": "This interactive map service provides regularly updated geospatial data related to drought conditions, including eMODIS VegDRI (each Monday at 12:30 pm), AVHRR VegDRI (every other Tuesday at 4 pm) 7-Day Average Streamflows (USGS Water Watch: daily), Precipitation Derivatives (NWS Precipitation Analysis: daily at 7 pm), and the weekly U.S. Drought Monitor (Thursday at 8:30 am).",
+	  "add": false,
+      "enabled": false
+    },
+	"popupInfo": {
+      "title": "EWX Viewer",
+      "description": "This interactive map service provides regularly updated geospatial data related to drought conditions, including eMODIS VegDRI (each Monday at 12:30 pm), AVHRR VegDRI (every other Tuesday at 4 pm) 7-Day Average Streamflows (USGS Water Watch: daily), Precipitation Derivatives (NWS Precipitation Analysis: daily at 7 pm), and the weekly U.S. Drought Monitor (Thursday at 8:30 am).",
+	  "glyphConvertedToDecimal":62055,
+	  "buttonText":"hello",
+	  "tooltip":"thisText",
+	  "height":500,
+	  "enabled":false
+    },
+	"externalLinkButtonTool":
+	{
+		"enabled":true,
+		"buttonText":"hello",
+		"link":"http://earlywarning.usgs.gov"
+	}
+	,
+    "toc": {
+        "configuration": {
+            "type": "layer"
+        },
+        "tools": [
+            {
+                "name": "legend",
+				"add": true,
+                "text": "",
+                "tooltip": "",
+                "dependency": "OpenLayers",
+                "class": "addLegendTool"
+            },
+            {
+                "name": "addWMSLayer",
+				"add": true,
+                "text": "",
+                "tooltip": "Add WMS Layer",
+                "dependency": "OpenLayers",
+                "class": "addWMSLayerTool"
+            },
+            {
+                "name": "removeLayer",
+				"add": true,
+                "text": "",
+                "tooltip": "Remove Layer",
+                "dependency": "OpenLayers",
+                "class": "removeLayerTool"
+            },
+            {
+                "name": "transparency",
+				"add": true,
+                "text": "",
+                "tooltip": "Apply Transparency",
+                "dependency": "OpenLayers",
+                "class": "addWMSLayersTool"
+            }
+        ]
+    },
+    "mapwindow": 
+	{
+		"configuration": {
+			"height":"100px",
+			"width":"100px",
+			"position":"50px",
+			"startsMonoWindow":false,
+            "saveLayerSelection":true,
+            "identifyToolGlyphClass": "fa-info-circle",
+            "datePicker": true,
+            "regionTool": true,
+			"addDatasetExplorerToolToMapwindowToolbar":false
+		},
+        "tools": [
+			{
+                "name": "downloadPNG",
+                "text": "",
+                "tooltip": "download PNG",
+                "dependency": "",
+                "class": "downloadPNGTool",
+				"rightOrLeftSide":"rightSide"
+            },
+			{
+                "name": "regionTool",
+                "text": "",
+                "tooltip": "Change Region",
+                "dependency": "",
+                "class": "regionTool",
+				"rightOrLeftSide":"leftSide"
+            }
+		]
+    },
+    "datepicker": {
+        "pickerType": "combobox"
+    },
+    "charts": {
+		"common" :
+		{ 
+			"showByDefault": {
+                "amountSelected": 2,
+                "startSelectionAt": "latest",
+                "others": ["stm"]
+            },
+            "savePeriodSelection": true,
+			"colors": ["#9E413E", "#40699C", "#7F9A48", "#664E83", "#5AC7D2", "#CC7B38", "#9984B6", "#BE4B48", "#99BA55", "#DAB0AF", "#B6C4DB", "#F79646", "#40699C","#406900", "#000000"],
+			"standardDeviation": "false",
+			"graphBullets": "true",
+			"decimalDigits": 3,
+			"gradient" : false,
+			"legend": "false",
+			"fillChart": "false",
+            "startInWindow": true
+		}
+    },
+    "toolsPanel": {
+        "enabled": true,
+        "tools": {
+            "spatialLocking": {
+                "enabled": true
+            },
+            "arrangeWindows": {
+                "enabled": true
+            }
+        }
+    },
+    "periods": {
+        "1-day": 
+            {
+                "alias": "1-day",
+                "label": "{{month}}-{{period}}, {{year}}",
+                "format": "f3",
+                "timeVariables": [
+                    "period",
+                    "month",
+                    "year"
+                ],
+				"firstOccurrence" :{},
+                "shortName": "D",
+                "fullName": "Day",
+                "months": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+				"shortMonths" : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                "daysPerPeriod": 1,
+                "style": "<style>"
+            }
+        ,
+		"7-day": 
+            {
+                "alias": "1-sevenday",
+                "label": "{{month}}-{{period}}, {{year}}",
+                "format": "f4",
+                "timeVariables": [
+                    "period",
+                    "month",
+                    "year"
+                ],
+				"firstOccurrence" :{"day": "Monday", "every": "year"},
+                "shortName": "W",
+                "fullName": "Week",
+                "months": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+				"shortMonths" : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                "daysPerPeriod": 7,
+                "style": "<style>"
+            }
+        ,
+        "1-pentad": 
+            {
+                "alias": "1-pentad",
+                "label": "{{month}} Pen-{{period}} {{year}}",
+                "format": "f8",
+                "timeVariables": [
+                    "period",
+                    "month",
+                    "year"
+                ],
+                "shortName": "P",
+                "fullName": "Pentad",
+                "months": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+				"shortMonths" : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                "itemsPerMonth": 6,
+                "style": "<style>"
+            }
+        ,
+        "1-dekad": 
+            {
+                "alias": "1-dekad",
+                "label": "{{month}}-{{period}}, {{year}}",
+                "format": "f3",
+                "timeVariables": [
+                    "period",
+                    "month",
+                    "year"
+                ],
+                "shortName": "D",
+                "fullName": "Dekad",
+                "months": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+				"shortMonths" : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                "itemsPerMonth": 3,
+                "style": "<style>"
+            }
+        ,
+        "1-month": 
+            {
+                "alias": "1-month",
+                "label": "{{month}} {{year}}",
+                "format": "f5",
+                "timeVariables": [
+                    "month",
+                    "year"
+                ],
+                "shortName": "",
+                "fullName": "Month",
+                "months": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+				"shortMonths" : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+                "style": "<style>"
+            }
+        ,
+        "2-month": 
+            {
+                "alias": "2-month",
+                "label": "{{month}} {{year}}",
+                "format": "f6",
+                "timeVariables": [
+                    "month",
+                    "year"
+                ],
+                "shortName": "",
+                "fullName": "2 Month",
+                "months": ["Jan-Feb","Feb-Mar","Mar-Apr","Apr-May","May-Jun","Jun-Jul","Jul-Aug","Aug-Sep","Sep-Oct","Oct-Nov","Nov-Dec","Dec-Jan"],
+				"shortMonths" : ["JF","FM","MA","AM","MJ","JJ","JA","AS","SO","ON","ND","DJ"],
+                "style": "<style>"
+            }
+        ,
+        "3-month": 
+            {
+                "alias": "3-month",
+                "label": "{{month}} {{year}}",
+                "format": "f7",
+                "timeVariables": [
+                    "month",
+                    "year"
+                ],
+                "shortName": "",
+                "fullName": "3 Month",
+                "months": ["Jan-Feb-Mar","Feb-Mar-Apr","Mar-Apr-May","Apr-May-Jun","May-Jun-Jul","Jun-Jul-Aug","Jul-Aug-Sep","Aug-Sep-Oct","Sep-Oct-Nov","Oct-Nov-Dec","Nov-Dec-Jan","Dec-Jan-Feb"],
+				"shortMonths" : ["JFM","FMA","MAM","AMJ","MJJ","JJA","JAS","ASO","SON","OND","NDJ","DJF"],
+                "style": "<mm><nn>"
+            }
+    },
+    "formats": {
+        "f1": {
+            "year": {
+                "type": "year"
+            },
+            "period": {
+                "type": "value",
+                "digitCount": 2,
+                "formatBy": "year"
+            }
+        },
+        "f2": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "value",
+                "digitCount": 2
+            }
+        },
+        "f3": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            },
+            "period": {
+                "type": "value"
+            }
+        },
+        "f4": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            },
+            "period": {
+                "type": "day"
+            }
+        },
+        "f5": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            }
+        },
+        "f6": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan-Feb", "Feb-Mar", "Mar-Apr", "Apr-May", "May-Jun", "Jun-Jul", "Jul-Aug", "Aug-Sep", "Sep-Oct", "Oct-Nov", "Nov-Dec", "Dec-Jan"]
+            }
+        },
+        "f7": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan-Feb-Mar", "Feb-Mar-Apr", "Mar-Apr-May", "Apr-May-Jun", "May-Jun-Jul", "Jun-Jul-Aug", "Jul-Aug-Sep", "Aug-Sep-Oct", "Sep-Oct-Nov", "Oct-Nov-Dec", "Nov-Dec-Jan", "Dec-Jan-Feb"]
+            }
+        },
+        "f8": {
+            "year": {
+                "type": "year"
+            },
+            "month": {
+                "type": "text",
+                "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            },
+            "period": {
+                "type": "custom"
+            }
+        }
+    }
+}

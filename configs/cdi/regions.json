@@ -1,0 +1,17 @@
+{
+    "regions" : [{
+        "id" : "grandcanyon",
+        "name" : "grandcanyon",
+        "title" : "Grand Canyon",
+        "srs" : "EPSG:6350",
+        "bbox" : [-1458441.2414240197, 1564989.5453735872, -1393806.2615736667, 1658513.297256378],
+        "comments" : "basemap is in 3857 so bbox coords are in same format"
+    }, {
+        "id" : "shn",
+        "name" : "shenandoah",
+        "title" : "Shenandoah",
+        "srs" : "EPSG:6350",
+        "bbox" : [1420433.9471165817, 1697761.606848199, 1613910.4501967812, 1996633.8703611917],
+        "comments" : "basemap is in 3857 so bbox coords are in same format"
+    }]
+}

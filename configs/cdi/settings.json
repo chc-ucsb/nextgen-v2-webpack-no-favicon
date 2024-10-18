@@ -1,0 +1,38 @@
+{
+    "configurationFiles": {
+        "layers" : {
+            "source" : "configs/cdi/layers.json",
+            "type" : "json",
+            "description" : "Layers Configuration: This is the config that defines layers to display in the map"
+        },
+        "regions" : {
+            "source": "configs/cdi/regions.json",
+            "type" : "json",
+            "description" : "Regions Configuration: This is the config that defines various regions that layers belong to"
+        },
+        "projections" : {
+            "source": "configs/cdi/projections.json",
+            "type" : "json",
+            "description" : "Projections Configuration: This is the config that defines projections for proj4js library. EPSG:3857 and EPSG:4326 are supported by default."
+        },
+        "template": {
+            "source" : "configs/cdi/template.json",
+            "type" : "json",
+            "description" : "Template Configuration: Configuration for blocks"
+        },
+        "cssoverride": {
+            "source" : "css/wret-override.css",
+            "type" : "text/css",
+            "description" : "WRET Override"
+        },
+		"analytics": {
+            "source" : "configs/cdi/analytics.js",
+            "description" : "Matomo Analytics"
+        }
+    },
+	"service_check":{
+		"source" : "https://earlywarning.usgs.gov/api/rest/service-check/geoserver,mysql,pgsql"
+	},
+    "debugMode":false,
+    "authentication_url": "/cdiviewer/proxies/cdi/authenticate.php"
+}

@@ -1,0 +1,37 @@
+{
+    "configurationFiles": {
+        "layers" : {
+            "source" : "configs/helloworld/layers.json",
+            "type" : "json",
+            "description" : "Layers Configuration: This is the config that defines layers to display in the map"
+        },
+        "regions" : {
+            "source": "configs/helloworld/regions.json",
+            "type" : "json",
+            "description" : "Regions Configuration: This is the config that defines various regions that layers belong to"
+        },
+        "projections" : {
+            "source": "configs/helloworld/projections.json",
+            "type" : "json",
+            "description" : "Projections Configuration: This is the config that defines projections for proj4js library. EPSG:3857 and EPSG:4326 are supported by default."
+        },
+        "template": {
+            "source" : "configs/helloworld/template.json",
+            "type" : "json",
+            "description" : "Template Configuration: Configuration for blocks"
+        },
+        "cssoverride": {
+            "source" : "css/styles-mtbs-override.css",
+            "type" : "text/css",
+            "description" : "MTBS CSS Override"
+        },
+        "analytics": {
+            "source" : "configs/mtbs/analytics.js",
+            "description" : "Piwik and Google Analytics"
+        }  
+    },
+	"service_check":{
+		"source" : "https://earlywarning.usgs.gov/api/rest/service-check/geoserver,mysql,pgsql"
+	},
+    "debugMode":false
+}

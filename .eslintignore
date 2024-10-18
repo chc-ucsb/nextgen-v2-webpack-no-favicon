@@ -1,0 +1,5 @@
+**/tests/**/*.test.ts
+src/tools/**/*.ts
+vendor/
+node_modules/
+src/tools/**/*.js

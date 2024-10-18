@@ -1,0 +1,276 @@
+{
+  "layers" : {
+    "overlays" : [{
+        "type" : "folder",
+        "title" : "Query Layers",
+        "expanded" : true,
+        "folder" : [{
+            "type" : "layer",
+            "id" : "pilot_collections",
+            "name" : "cdi_vectors:PILOT_Collections",
+            "title" : "LIDAR Collections",
+            "description" : "",
+            "source" : {
+                "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms",
+                "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs"
+            },
+            "loadOnly" : false,
+            "display" : true,
+            "mask" : false,
+            "zIndex" : 0,
+            "transparency" : false,
+            "srs" : "EPSG:6350",
+            "geometryName": "the_geom",
+            "style": "fews_admin_0_ngviewer",
+            "featureInfo" : {
+                "project_id" : {
+                    "displayName" : "Project ID",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "state" : {
+                    "displayName" : "State",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "s_date" : {
+                    "displayName" : "Start Date",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "e_date" : {
+                    "displayName" : "End Date",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "refsys" : {
+                    "displayName" : "Coordinate Reference System",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "entry_date" : {
+                    "displayName" : "Entry Date",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "quality" : {
+                    "displayName" : "Quality",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "horizunit" : {
+                    "displayName" : "Horizontal Unit",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                }
+            }
+          }
+        ]
+    }],
+    "boundaries" : [{
+        "type" : "folder",
+        "title" : "Boundaries",
+        "expanded" : true,
+        "folder" : [{
+            "type" : "layer",
+            "id" : "parkboundary",
+            "name" : "cdi_vectors:PILOT_AOIs",
+            "title" : "Park Boundary",
+            "description" : "",
+            "source" : {
+                "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms",
+                "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs"
+            },
+            "loadOnly" : false,
+            "display" : true,
+            "mask" : false,
+            "zIndex" : 0,
+            "transparency" : false,
+            "srs" : "EPSG:6350",
+            "geometryName": "the_geom",
+            "style": "fews_crops_ngviewer",
+            "featureInfo" : {
+                "AREA" : {
+                    "displayName" : "Area",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "PERIMETER" : {
+                    "displayName" : "Perimeter",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                },
+                "PKPLYNW_ID" : {
+                    "displayName" : "ID",
+                    "displayValue" : null,
+                    "value" : null,
+                    "mapValues" : []
+                }
+            }
+          }, {
+                "type" : "layer",
+                "id" : "cdi_tiles",
+                "name" : "cdi_vectors:PILOT_Tiles",
+                "title" : "Tiles",
+                "description" : "",
+                "source" : 
+                {
+                    "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms",
+                    "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs"
+                },
+                "loadOnly" : false,
+                "display" : true,
+                "mask" : false,
+                "zIndex" : 0,
+                "regionIds" : [
+                    "us"
+                ],
+                "srs" : "EPSG:6350",
+                "geometryName": "the_geom",
+                "legend" : 
+                {
+                    "style":"",
+                    "customImageURL" : null,
+                    "title" : ""
+                }
+            }, {
+                "type" : "layer",
+                "id" : "states",
+                "name" : "mtbs:mtbs_states",
+                "title" : "States",
+                "description" : "Cartographic boundaries for all U.S. states; produced by the U.S. Census Bureau as part of the national TIGER Database at a resolution of 1:5,000,000.",
+                "source" : 
+                {
+                    "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms?",
+                    "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs?"
+                },
+                "loadOnly" : false,
+                "display" : false,
+                "mask" : false,
+                "zIndex" : 0,
+                "regionIds" : [
+                    "us"
+                ],
+                "srs" : "EPSG:3857",
+                "geometryName": "geom",
+                "legend" : 
+                {
+                    "style":"",
+                    "customImageURL" : null,
+                    "title" : ""
+                }
+            }, {
+                "type" : "layer",
+                "id" : "counties",
+                "name" : "mtbs:mtbs_counties",
+                "title" : "Counties",
+                "description" : "Cartographic boundaries for all U.S. counties; produced by the U.S. Census Bureau as part of the national TIGER Database at a resolution of 1:5,000,000.",
+                "source" : 
+                {
+                    "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms?",
+                    "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs?"
+                },
+                "loadOnly" : false,
+                "display" : false,
+                "mask" : false,
+                "zIndex" : 0,
+                "regionIds" : [
+                    "us"
+                ],
+                "srs" : "EPSG:3857",
+                "geometryName": "geom",
+                "legend" : 
+                {
+                    "style":"",
+                    "customImageURL" : null,
+                    "title" : ""
+                }
+            }, {
+                "type" : "layer",
+                "id" : "watersheds",
+                "name" : "mtbs:mtbs_watersheds",
+                "title" : "Watersheds",
+                "description" : "Hydrologic Unit Maps the surface water drainage for the entirety of the US, georeferenced to 1:24,000 topographic based maps.  The hydrologic units vary are mapped at different scales which are assigned a Hydrologic Unit Code (HUC).  HUC hierarchy is based on the number of digits of the group ranging from 2-12, with higher numbers representing smaller subregion size. The units present for this layer is the HUC 8, which maps at the subbasin region.  Please see <a href='https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/Supplemental/HUC.pdf'>https://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/Supplemental/HUC.pdf</a> and <a href='https://water.usgs.gov/GIS/huc.html'>https://water.usgs.gov/GIS/huc.html</a> for additional details.",
+                "source" :
+                {
+                    "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms?",
+                    "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs?"
+                },
+                "loadOnly" : false,
+                "display" : false,
+                "mask" : false,
+                "zIndex" : 0,
+                "regionIds" : [
+                    "us"
+                ],
+                "srs" : "EPSG:3857",
+                "geometryName": "geom",
+                "legend" :
+                {
+                    "style":"",
+                    "customImageURL" : null,
+                    "title" : ""
+                }
+            },
+            {
+                "type" : "layer",
+                "id" : "protectedAreas",
+                "name" : "mtbs:mtbs_protected_areas",
+                "title" : "Protected Areas",
+                "description" : "Protected Areas – “Fee lands of GAP Status 3 or higher. Produced by the USGS Gap Analysis Program. Data and documentation available at <a href='https://gapanalysis.usgs.gov/padus/'>https://gapanalysis.usgs.gov/padus/</a>. Current to May 2016.",
+                "source" : 
+                {
+                    "wms" : "https://edcintl.cr.usgs.gov/geoserver/wms?",
+                    "wfs" : "https://edcintl.cr.usgs.gov/geoserver/wfs?"
+                },
+                "loadOnly" : false,
+                "display" : false,
+                "mask" : false,
+                "zIndex" : 0,
+                "regionIds" : [
+                    "us"
+                ],
+                "srs" : "EPSG:3857",
+                "geometryName": "geom",
+                "style" : "",
+                "legend" : 
+                {
+                    "style":"",
+                    "customImageURL" : null,
+                    "title" : ""
+                }
+            }
+        ]
+    }],
+    "baselayers" : [{
+        "type" : "folder",
+        "title" : "Base Layers",
+        "expanded" : true,
+        "folder" : [{
+			"type" : "layer",
+			"name" : "osm_0",
+			"title" : "OpenStreetMap",
+			"description" : "",
+			"loadOnly" : false,
+			"display" : true,
+			"mask" : false,
+			"srs" : "EPSG:3857",
+			"loaded" : "true",
+			"brand" : "osm",
+			"source" : {},
+			"comments" : ""
+		  }
+        ]
+      }
+    ]}
+}

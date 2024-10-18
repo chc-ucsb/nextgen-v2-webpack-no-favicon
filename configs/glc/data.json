@@ -1,0 +1,986 @@
+{
+  "layers": {
+    "overlays": [
+      {
+        "type": "folder",
+        "title": "Dataset",
+        "regionId": "gb",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "name": "glc:glc_water",
+            "title": "Global Surface Water",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "glc_water_legend",
+              "customImageURL": null,
+              "title": "Global Surface Water"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_sites_layer_group",
+            "version": "1.1.0",
+            "title": "Reference Data",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "wcs": "https://edcintl.cr.usgs.gov/geoserver/wcs"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "resolution": "0.0083",
+            "featureInfo": {
+              "Site_ID": {
+                "displayName": "Site ID",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "Country": {
+                "displayName": "Country",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "Sensor": {
+                "displayName": "Sensor",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "ImageAQ": {
+                "displayName": "Image Date",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": "images/glc/reference_sites.PNG",
+              "title": "Reference Sites"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries_top",
+            "title": "Opaque Other Countries",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_greenland_opaque",
+            "title": "Opaque Greenland",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries",
+            "title": "Country Boundaries Layer",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_water_mask",
+            "title": "Global Surface Water",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "glc_water_legend",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_global_treecover_pyramid",
+            "title": "Percent Tree Cover",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {
+              "GRAY_INDEX": {
+                "displayName": "Pixel Value",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "Percent Tree Cover"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_bareground_layer_group",
+            "title": "Percent Bare Ground",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": false,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {
+              "GRAY_INDEX": {
+                "displayName": "Pixel Value",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": "images/glc/glcbaregroundlegendgimage.png",
+              "title": "Percent Bare Ground"
+            },
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries_hidden",
+            "version": "1.1.0",
+            "title": "Country Boundaries Hidden",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_ocean_shapefile",
+            "version": "1.1.0",
+            "title": "Ocean Layer",
+
+            "source": {
+              "wms": "https://edcintl.cr.usgs.gov/geoserver/wms?",
+              "gwc": "https://edcintl.cr.usgs.gov/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {},
+            "style": "glc_ocean_shapefile",
+            "legend": {
+              "style": "glc_ocean_shapefile",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+
+            "additionalAttributes": {}
+          }
+        ]
+      }
+    ],
+    "boundaries": [
+      {
+        "type": "folder",
+        "title": "Boundaries",
+        "expanded": true,
+        "regionId": "gb",
+        "folder": []
+      }
+    ],
+    "baselayers": [
+      {
+        "type": "folder",
+        "title": "Base Layers",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "name": "bing_0",
+            "title": "Bing Road",
+
+            "source": {
+              "wms": "https://earlywarning.usgs.gov:8443/geoserver/wms?",
+              "wcs": "https://earlywarning.usgs.gov:8443/geoserver/wcs",
+              "gwc": "https://earlywarning.usgs.gov:8443/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "srs": "EPSG:3857",
+            "loaded": "true",
+            "brand": "bing",
+            "key": "Gc51rU1gAPZXqFEQTMrA~MUp98uEB4gnH03bwcMZfMQ~AofqIHvy_35WHkXHCyTAbGBfyTgycfUjPQosoS34S3HJNHOK0MFJXANeFZOiL1JC",
+            "imagerySet": "Road",
+            "comments": "imagery set values can be Road,Aerial,AerialWithLabels,collinsBart,ordnanceSurvey"
+          }
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "af",
+      "name": "africa",
+      "title": "Africa",
+      "srs": "EPSG:3857",
+      "iconPath": "images/regionTool/AfricaRegionIcon.gif",
+      "bbox": [-2128992.2837949917, -4214602.3067408798, 5858710.218962431, 4615766.178543388],
+      "comments": "basemap is in 3857 so bbox coords are in same format"
+    },
+    {
+      "id": "gb",
+      "name": "global",
+      "title": "Global",
+      "srs": "EPSG:3857",
+      "iconPath": "images/regionTool/AsiaRegionIcon.gif",
+      "bbox": [-18047246.778596736, -7248766.195662957, 20818785.99486994, 14376008.201786907],
+      "comments": "basemap is in 3857 so bbox coords are in same format"
+    },
+    {
+      "id": "ea-af",
+      "name": "eastafrica",
+      "title": "East Africa Community",
+      "srs": "EPSG:3857",
+      "iconPath": "images/regionTool/EastAfricaRegionIcon.gif",
+      "bbox": [2782987.26983, -1448309.80215, 4886925.64582, 893463.751013],
+      "comments": "basemap is in 3857 so bbox coords are in same format"
+    },
+    {
+      "id": "camcar",
+      "name": "camcar",
+      "title": "Central America & Caribbean",
+      "srs": "EPSG:3857",
+      "iconPath": "images/regionTool/AsiaRegionIcon.gif",
+      "bbox": [-10562844, 484721, -7520843, 2654509],
+      "comments": "basemap is in 3857 so bbox coords are in same format"
+    }
+  ],
+  "periods": {
+    "1-day": {
+      "alias": "1-day",
+      "label": "{{month}}-{{period}}, {{year}}",
+      "format": "f3",
+      "timeVariables": ["period", "month", "year"],
+      "firstOccurrence": {},
+      "shortName": "D",
+      "fullName": "Day",
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "daysPerPeriod": 1,
+      "style": "<style>"
+    },
+    "7-day": {
+      "alias": "1-sevenday",
+      "label": "{{month}}-{{period}}, {{year}}",
+      "format": "f4",
+      "timeVariables": ["period", "month", "year"],
+      "firstOccurrence": { "day": "Monday", "every": "year" },
+      "shortName": "W",
+      "fullName": "Week",
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "daysPerPeriod": 7,
+      "style": "<style>"
+    },
+    "1-pentad": {
+      "alias": "1-pentad",
+      "label": "{{month}} Pen-{{period}} {{year}}",
+      "format": "f3",
+      "timeVariables": ["period", "month", "year"],
+      "shortName": "P",
+      "fullName": "Pentadal",
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "itemsPerMonth": 6,
+      "style": "<style>"
+    },
+    "1-dekad": {
+      "alias": "1-dekad",
+      "label": "{{month}}-{{period}}, {{year}}",
+      "format": "f3",
+      "timeVariables": ["period", "month", "year"],
+      "shortName": "D",
+      "fullName": "Dekadal",
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "itemsPerMonth": 3,
+      "style": "<style>"
+    },
+    "1-month": {
+      "alias": "1-month",
+      "label": "{{month}} {{year}}",
+      "format": "f5",
+      "timeVariables": ["month", "year"],
+      "shortName": "",
+      "fullName": "Month",
+      "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "style": "<style>"
+    },
+    "2-month": {
+      "alias": "2-month",
+      "label": "{{month}} {{year}}",
+      "format": "f6",
+      "timeVariables": ["month", "year"],
+      "shortName": "",
+      "fullName": "2 Month",
+      "months": ["Jan-Feb", "Feb-Mar", "Mar-Apr", "Apr-May", "May-Jun", "Jun-Jul", "Jul-Aug", "Aug-Sep", "Sep-Oct", "Oct-Nov", "Nov-Dec", "Dec-Jan"],
+      "shortMonths": ["JF", "FM", "MA", "AM", "MJ", "JJ", "JA", "AS", "SO", "ON", "ND", "DJ"],
+      "style": "<style>"
+    },
+    "3-month": {
+      "alias": "3-month",
+      "label": "{{month}} {{year}}",
+      "format": "f7",
+      "timeVariables": ["month", "year"],
+      "shortName": "",
+      "fullName": "3 Month",
+      "months": [
+        "Jan-Feb-Mar",
+        "Feb-Mar-Apr",
+        "Mar-Apr-May",
+        "Apr-May-Jun",
+        "May-Jun-Jul",
+        "Jun-Jul-Aug",
+        "Jul-Aug-Sep",
+        "Aug-Sep-Oct",
+        "Sep-Oct-Nov",
+        "Oct-Nov-Dec",
+        "Nov-Dec-Jan",
+        "Dec-Jan-Feb"
+      ],
+      "shortMonths": ["JFM", "FMA", "MAM", "AMJ", "MJJ", "JJA", "JAS", "ASO", "SON", "OND", "NDJ", "DJF"],
+      "style": "<mm><nn>"
+    }
+  },
+  "formats": {
+    "f1": {
+      "year": {
+        "type": "year"
+      },
+      "period": {
+        "type": "value",
+        "digitCount": 2,
+        "formatBy": "year"
+      }
+    },
+    "f2": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "value",
+        "digitCount": 2
+      }
+    },
+    "f3": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+      },
+      "period": {
+        "type": "value"
+      }
+    },
+    "f4": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+      },
+      "period": {
+        "type": "day"
+      }
+    },
+    "f5": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+      }
+    },
+    "f6": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": ["Jan-Feb", "Feb-Mar", "Mar-Apr", "Apr-May", "May-Jun", "Jun-Jul", "Jul-Aug", "Aug-Sep", "Sep-Oct", "Oct-Nov", "Nov-Dec", "Dec-Jan"]
+      }
+    },
+    "f7": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": [
+          "Jan-Feb-Mar",
+          "Feb-Mar-Apr",
+          "Mar-Apr-May",
+          "Apr-May-Jun",
+          "May-Jun-Jul",
+          "Jun-Jul-Aug",
+          "Jul-Aug-Sep",
+          "Aug-Sep-Oct",
+          "Sep-Oct-Nov",
+          "Oct-Nov-Dec",
+          "Nov-Dec-Jan",
+          "Dec-Jan-Feb"
+        ]
+      }
+    },
+    "f8": {
+      "year": {
+        "type": "year"
+      },
+      "month": {
+        "type": "text",
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+      },
+      "period": {
+        "type": "custom"
+      }
+    }
+  },
+  "charts": [
+    {
+      "id": "g2008_1-BarGraph",
+      "zone": "ewx_africa:g2008_1",
+      "name": "Admin 1",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_1&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_2-BarGraph",
+      "zone": "ewx_africa:g2008_2",
+      "name": "Admin 2",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_2&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cropzones-BarGraph",
+      "zone": "ewx_africa:cropzones",
+      "name": "Crop Zones",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=cropzones&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_1",
+      "zone": "ewx_africa:g2008_1",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_1&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_2",
+      "zone": "ewx_africa:g2008_2",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_2&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cropzones",
+      "zone": "ewx_africa:cropzones",
+      "name": "Crop Zones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=cropzones&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_1-normalized",
+      "zone": "ewx_africa:g2008_1",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_1&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_2-normalized",
+      "zone": "ewx_africa:g2008_2",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_2&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cropzones-normalized",
+      "zone": "ewx_africa:cropzones",
+      "name": "Crop Zones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=cropzones&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=true&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_1-normalized-pctn",
+      "zone": "ewx_africa:g2008_1",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_1&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=false&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_2-normalized-pctn",
+      "zone": "ewx_africa:g2008_2",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_2&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=false&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cropzones-normalized-pctn",
+      "zone": "ewx_africa:cropzones",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=cropzones&raster_dataset={{raster_dataset}}&include_accumulated=false&include_seasons_list=false&seasons={{seasons}}&servlet_endpoint=https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "g2008_1-cumm",
+      "zone": "ewx_africa:g2008_1",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_1&raster_dataset={{raster_dataset}}&include_accumulated=true&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "Cummulative",
+        "values": "time_series.accumulated"
+      }
+    },
+    {
+      "id": "g2008_2-cumm",
+      "zone": "ewx_africa:g2008_2",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=g2008_2&raster_dataset={{raster_dataset}}&include_accumulated=true&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "Cummulative",
+        "values": "accumulated.values"
+      }
+    },
+    {
+      "id": "cropzones-cumm",
+      "zone": "ewx_africa:cropzones",
+      "name": "Crop Zones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://igskmncngs103.cr.usgs.gov:8443/EWX/TimeSeriesServlet?fewsId={{fewsId}}&region=africa&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=cropzones&raster_dataset={{raster_dataset}}&include_accumulated=true&include_seasons_list=true&seasons={{seasons}}",
+        "prefix": "Cummulative",
+        "values": "accumulated.values"
+      }
+    },
+    {
+      "id": "cac14ad1_ud_chart_line_normalized",
+      "zone": "fews_camcar_vector:cac14ad1_ud",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad1_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad1_ud_chart_line_normalized_pctn",
+      "zone": "fews_camcar_vector:cac14ad1_ud",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad1_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad1_ud_chart_bar",
+      "zone": "fews_camcar_vector:cac14ad1_ud",
+      "name": "Admin 1",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad1_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad1_ud_chart_bar_cumm",
+      "comment": "cumm chart ids have to have the same name as other chart ids with a _cumm suffix attached on the end of it. the chart id that you suffixed _cumm to the end also has to be in the layers chart ids or it will not work",
+      "zone": "fews_camcar_vector:cac14ad1_ud",
+      "name": "Admin 1",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad1_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=true&include_seasons_list=true",
+        "prefix": "Cummulative",
+        "values": "accumulated.values"
+      }
+    },
+    {
+      "id": "cac14ad2_ud_chart_line_normalized",
+      "zone": "fews_camcar_vector:cac14ad2_ud",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad2_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad2_ud_chart_line_normalized_pctn",
+      "zone": "fews_camcar_vector:cac14ad2_ud",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad2_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad2_ud_chart_bar",
+      "zone": "fews_camcar_vector:cac14ad2_ud",
+      "name": "Admin 2",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad2_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac14ad2_ud_chart_bar_cumm",
+      "comment": "cumm chart ids have to have the same name as other chart ids with a _cumm suffix attached on the end of it. the chart id that you suffixed _cumm to the end also has to be in the layers chart ids or it will not work",
+      "zone": "fews_camcar_vector:cac14ad2_ud",
+      "name": "Admin 2",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac14ad2_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=true&include_seasons_list=true",
+        "prefix": "Cummulative",
+        "values": "accumulated.values"
+      }
+    },
+    {
+      "id": "ha_cz_ad1_chart_line_normalized",
+      "zone": "fews_camcar_vector:ha_cz_ad1",
+      "name": "Haiti Cropzones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:ha_cz_ad1&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "ha_cz_ad1_chart_line_normalized_pctn",
+      "zone": "fews_camcar_vector:ha_cz_ad1",
+      "name": "Haiti Cropzones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:ha_cz_ad1&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "ha_cz_ad1_chart_bar",
+      "zone": "fews_camcar_vector:ha_cz_ad1",
+      "name": "Haiti Cropzones",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:ha_cz_ad1&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "ha_cz_ad1_chart_bar_cumm",
+      "zone": "fews_camcar_vector:ha_cz_ad1",
+      "name": "Haiti Cropzones",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:ha_cz_ad1&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=true&include_seasons_list=true",
+        "prefix": "Cummulative",
+        "values": "accumulated.values"
+      }
+    },
+    {
+      "id": "cac_crops_int_ud_chart_line_normalized",
+      "zone": "fews_camcar_vector:cac_crops_int_ud",
+      "name": "Crop Zones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/normalizeDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac_crops_int_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac_crops_int_ud_chart_line_normalized_pctn",
+      "zone": "fews_camcar_vector:cac_crops_int_ud",
+      "name": "Crop Zones",
+      "chartType": "LineGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "proxies/pctnDataProxy.php?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac_crops_int_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false&servlet_endpoint=http%3A%2F%2Fedcintl.cr.usgs.gov%2Ffews_ewx_viewer%2FTimeSeriesServlet",
+
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac_crops_int_ud_chart_bar",
+      "zone": "fews_camcar_vector:cac_crops_int_ud",
+      "name": "Crop Zones",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac_crops_int_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=false&include_seasons_list=false",
+        "prefix": "",
+        "values": "time_series.values"
+      }
+    },
+    {
+      "id": "cac_crops_int_ud_chart_bar_cumm",
+      "zone": "fews_camcar_vector:cac_crops_int_ud",
+      "name": "Crop Zones",
+      "chartType": "BarGraph",
+      "source": {
+        "type": "jsonp",
+        "url": "https://edcintl.cr.usgs.gov/fews_ewx_viewer/TimeSeriesServlet?fewsId={{fewsCode}}&region=camcar&periodicity={{periodicity}}&statistic={{statistic}}&vector_dataset=fews-camcar-vector:cac_crops_int_ud&raster_dataset={{raster_dataset}}&seasons={{seasons}}&include_accumulated=true&include_seasons_list=true",
+        "prefix": "",
+        "values": "accumulated.values"
+      }
+    }
+  ]
+}

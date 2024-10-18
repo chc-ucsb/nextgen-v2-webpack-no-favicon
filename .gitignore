@@ -1,0 +1,11 @@
+.vscode
+.idea
+.cache
+Thumbs.db
+dist
+node_modules
+src/importedTools.ts
+.yarn/
+.yarnrc
+yarn.lock
+.history

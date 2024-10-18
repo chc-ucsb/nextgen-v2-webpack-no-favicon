@@ -1,0 +1,413 @@
+{
+  "layers": {
+    "overlays": [
+      {
+        "type": "folder",
+        "title": "Dataset",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "name": "glc:glc_water",
+            "title": "Water Layer Mask",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_sites_layer_group",
+            "version": "1.1.0",
+            "title": "Reference Data",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "wcs": "http://igskmncnvs191:8080/geoserver/wcs",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "resolution": "0.0083",
+            "featureInfo": {
+              "Site_ID": {
+                "displayName": "Site ID",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "Country": {
+                "displayName": "Country",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "Sensor": {
+                "displayName": "Sensor",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              },
+              "ImageAQ": {
+                "displayName": "Image Date",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries_top",
+            "title": "Opaque Other Countries",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_greenland_opaque",
+            "title": "Opaque Greenland",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries",
+            "title": "Country Boundaries Layer",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_water_mask",
+            "title": "Water Layer Mask",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_global_treecover_pyramid",
+            "title": "Global Tree Cover",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {
+              "GRAY_INDEX": {
+                "displayName": "Pixel Value",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_bare_patch_raster",
+            "title": "Bare ground patch",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {
+              "GRAY_INDEX": {
+                "displayName": "Pixel Value",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_bareground_pyramid",
+            "title": "Bareground",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {
+              "GRAY_INDEX": {
+                "displayName": "Pixel Value",
+                "displayValue": null,
+                "value": null,
+                "mapValues": [],
+                "significantDigits": 6
+              }
+            },
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_country_boundaries_hidden",
+            "version": "1.1.0",
+            "title": "Country Boundaries Hidden",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "style": "",
+            "legend": {
+              "style": "",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          },
+          {
+            "type": "layer",
+            "name": "glc:glc_ocean_shapefile",
+            "version": "1.1.0",
+            "title": "Ocean Layer",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncnvs191:8080/geoserver/wms?",
+              "gwc": "http://igskmncnvs191:8080/geoserver/gwc"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": true,
+            "zIndex": 0,
+            "transparency": true,
+            "filter": "",
+            "regionIds": ["gb"],
+            "chartIds": [],
+            "srs": "EPSG:4326",
+            "featureInfo": {},
+            "style": "glc_ocean_shapefile",
+            "legend": {
+              "style": "glc_ocean_shapefile",
+              "customImageURL": null,
+              "title": "All Service Types"
+            },
+            "unit": "mm",
+            "additionalAttributes": {}
+          }
+        ]
+      }
+    ],
+    "boundaries": [],
+    "baselayers": [
+      {
+        "type": "folder",
+        "title": "Base Layers",
+        "expanded": true,
+        "folder": [
+          {
+            "type": "layer",
+            "name": "bing_0",
+            "title": "Bing Road",
+            "description": "Dataset description",
+            "source": {
+              "wms": "http://igskmncngs103:8080/geoserver/wms?",
+              "gwc": "http://igskmncngs103:8080/geoserver/gwc/service/wms?"
+            },
+            "loadOnly": false,
+            "display": true,
+            "mask": false,
+            "srs": "EPSG:3857",
+            "loaded": "true",
+            "brand": "bing",
+            "key": "Gc51rU1gAPZXqFEQTMrA~MUp98uEB4gnH03bwcMZfMQ~AofqIHvy_35WHkXHCyTAbGBfyTgycfUjPQosoS34S3HJNHOK0MFJXANeFZOiL1JC",
+            "imagerySet": "Road",
+            "comments": "imagery set values can be Road,Aerial,AerialWithLabels,collinsBart,ordnanceSurvey"
+          }
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "gb",
+      "name": "global",
+      "title": "Global",
+      "srs": "EPSG:3857",
+      "iconPath": "images/regionTool/AfricaRegionIcon.gif",
+      "bbox": [-17811118.5269, -8399737.88982, 17811118.5269, 8399737.88982],
+      "comments": "basemap is in 3857 so bbox coords are in same format"
+    }
+  ]
+}
