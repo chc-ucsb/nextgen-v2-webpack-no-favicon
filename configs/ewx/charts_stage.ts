@@ -6837,34 +6837,34 @@ export const charts = [
     ],
   },
 
-  // CHIME-Beta Africa
+  // CHIME v07 Beta Africa
   {
     source: {
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_pentad_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_pentad_mean'],
     },
-    overlays: ['chimebetaAfricaDataPentadal'],
+    overlays: ['chimev07betaAfricaDataPentadal'],
     boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
     boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -6875,26 +6875,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaAfricaAnomalyPentadal'],
+    overlays: ['chimev07betaAfricaAnomalyPentadal'],
     boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
     boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
     ],
@@ -6905,26 +6905,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaAfricaZscorePentadal'],
+    overlays: ['chimev07betaAfricaZscorePentadal'],
     boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
     boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
     ],
@@ -6934,58 +6934,28 @@ export const charts = [
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_1_monthly_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_1_monthly_mean'],
     },
-    overlays: ['chimebetaAfricaData1Monthly'],
+    overlays: ['chimev07betaAfricaData1Monthly'],
     boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
     boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
-    ],
-  },
-  {
-    source: {
-      url:
-        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
-      type: 'json',
-    },
-    overlays: ['chimebetaAfricaAnomaly1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
-    chartTypes: [
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -6996,26 +6966,56 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaAfricaZscore1Monthly'],
+    overlays: ['chimev07betaAfricaAnomaly1Monthly'],
     boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
     boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chimev07betaAfricaZscore1Monthly'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
     ],
@@ -10422,34 +10422,34 @@ export const charts = [
     ],
   },
 
-  //  CHIME-Beta Central America
+  //  CHIME v07 Beta Central America
   {
     source: {
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_pentad_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_pentad_mean'],
     },
-    overlays: ['chimebetaCamcarDataPentadal'],
+    overlays: ['chimev07betaCamcarDataPentadal'],
     boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
     boundaryLabels: ['Countries','Admin 1','Admin 2'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -10460,26 +10460,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaCamcarAnomalyPentadal'],
+    overlays: ['chimev07betaCamcarAnomalyPentadal'],
     boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
     boundaryLabels: ['Countries','Admin 1','Admin 2'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
     ],
@@ -10490,26 +10490,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaCamcarZscorePentadal'],
+    overlays: ['chimev07betaCamcarZscorePentadal'],
     boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
     boundaryLabels: ['Countries','Admin 1','Admin 2'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
     ],
@@ -10519,58 +10519,28 @@ export const charts = [
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_1_monthly_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_1_monthly_mean'],
     },
-    overlays: ['chimebetaCamcarData1Monthly'],
+    overlays: ['chimev07betaCamcarData1Monthly'],
     boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
     boundaryLabels: ['Countries','Admin 1','Admin 2'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
-    ],
-  },
-  {
-    source: {
-      url:
-        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
-      type: 'json',
-    },
-    overlays: ['chimebetaCamcarAnomaly1Monthly'],
-    boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
-    boundaryLabels: ['Countries','Admin 1','Admin 2'],
-    chartTypes: [
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -10581,26 +10551,56 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaCamcarZscore1Monthly'],
+    overlays: ['chimev07betaCamcarAnomaly1Monthly'],
     boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
     boundaryLabels: ['Countries','Admin 1','Admin 2'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chimev07betaCamcarZscore1Monthly'],
+    boundaries: ['camcarAdmin0','camcarAdmin1','camcarAdmin2'],
+    boundaryLabels: ['Countries','Admin 1','Admin 2'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
     ],
@@ -14739,34 +14739,34 @@ export const charts = [
     ],
   },
 
-  // CHIME-Beta Global
+  // CHIME v07 Beta Global
   {
     source: {
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_pentad_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_pentad_mean'],
     },
-    overlays: ['chimebetaGlobalDataPentadal'],
+    overlays: ['chimev07betaGlobalDataPentadal'],
     boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
     boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_data.data',
+        dataRoot: 'chime-v07-beta_global_pentad_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -14777,26 +14777,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaGlobalAnomalyPentadal'],
+    overlays: ['chimev07betaGlobalAnomalyPentadal'],
     boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
     boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_anom.data',
+        dataRoot: 'chime-v07-beta_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
     ],
@@ -14807,26 +14807,26 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaGlobalZscorePentadal'],
+    overlays: ['chimev07betaGlobalZscorePentadal'],
     boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
     boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_pentad_zscore.data',
+        dataRoot: 'chime-v07-beta_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
     ],
@@ -14836,58 +14836,28 @@ export const charts = [
       url:
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
-      staticSeasonNames: ['chime-beta_global_1_monthly_mean'],
+      staticSeasonNames: ['chime-v07-beta_global_1_monthly_mean'],
     },
-    overlays: ['chimebetaGlobalData1Monthly'],
+    overlays: ['chimev07betaGlobalData1Monthly'],
     boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
     boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
-    ],
-  },
-  {
-    source: {
-      url:
-        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
-      type: 'json',
-    },
-    overlays: ['chimebetaGlobalAnomaly1Monthly'],
-    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
-    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
-    chartTypes: [
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['bar', 'line'],
-        dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_anom.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
     ],
@@ -14898,26 +14868,56 @@ export const charts = [
         'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
       type: 'json',
     },
-    overlays: ['chimebetaGlobalZscore1Monthly'],
+    overlays: ['chimev07betaGlobalAnomaly1Monthly'],
     boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
     boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'annual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
       {
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
-        dataRoot: 'chime-beta_global_1_monthly_zscore.data',
+        dataRoot: 'chime-v07-beta_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chimev07betaGlobalZscore1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chime-v07-beta_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
     ],
