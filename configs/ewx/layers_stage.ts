@@ -21093,7 +21093,7 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS',
+          title: 'CHIRPS v2.0 RCHECKS',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -21257,7 +21257,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS',
+          title: 'CHIRPS v2.0 RCHECKS',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -21421,7 +21421,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS',
+          title: 'CHIRPS v2.0 RCHECKS',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -21589,7 +21589,7 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS HD',
+          title: 'CHIRPS v2.0 RCHECKS HD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -21907,7 +21907,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS HD',
+          title: 'CHIRPS v2.0 RCHECKS HD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -22225,7 +22225,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS HD',
+          title: 'CHIRPS v2.0 RCHECKS HD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -22547,7 +22547,7 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS UHD',
+          title: 'CHIRPS v2.0 RCHECKS UHD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -22660,7 +22660,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS UHD',
+          title: 'CHIRPS v2.0 RCHECKS UHD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -22773,7 +22773,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS UHD',
+          title: 'CHIRPS v2.0 RCHECKS UHD',
           description:
             'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
           expanded: false,
@@ -22890,7 +22890,7 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS Anchors',
+          title: 'CHIRPS v2.0 RCHECKS Anchors',
           description:
             'CHIRPS Rchecks with only the Anchor stations included. This is the first step in blending the stations in.',
           expanded: false,
@@ -23003,7 +23003,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS Anchors',
+          title: 'CHIRPS v2.0 RCHECKS Anchors',
           description:
             'CHIRPS Rchecks with only the Anchor stations included. This is the first step in blending the stations in.',
           expanded: false,
@@ -23116,7 +23116,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS Anchors',
+          title: 'CHIRPS v2.0 RCHECKS Anchors',
           description:
             'CHIRPS Rchecks with only the Anchor stations included. This is the first step in blending the stations in.',
           expanded: false,
@@ -23233,7 +23233,7 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS 2nd Blend',
+          title: 'CHIRPS v2.0 RCHECKS 2nd Blend',
           description:
             'CHIRPS Rchecks with the second set of stations blended in. This is the final step in blending the stations in.',
           expanded: false,
@@ -23346,7 +23346,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS 2nd Blend',
+          title: 'CHIRPS v2.0 RCHECKS 2nd Blend',
           description:
             'CHIRPS Rchecks with the second set of stations blended in. This is the final step in blending the stations in.',
           expanded: false,
@@ -23459,7 +23459,7 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHIRPS RCHECKS 2nd Blend',
+          title: 'CHIRPS v2.0 RCHECKS 2nd Blend',
           description:
             'CHIRPS Rchecks with the second set of stations blended in. This is the final step in blending the stations in.',
           expanded: false,
@@ -23559,6 +23559,1494 @@ export const layers = {
                   additionalAttributes: {
                     statistic: 'anom',
                     rasterDataset: 'rchecks-2ndround_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * RCHECKS v3.0
+         */
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3AfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_data:rchecks-v3p0_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3AfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_anom:rchecks-v3p0_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3AfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_zscore:rchecks-v3p0_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3GlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_data:rchecks-v3p0_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3GlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_anom:rchecks-v3p0_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3GlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_zscore:rchecks-v3p0_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3CamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_data:rchecks-v3p0_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3CamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_anom:rchecks-v3p0_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3CamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0_global_1_monthly_zscore:rchecks-v3p0_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * RCHECKS-HD v3.0
+         */
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS HD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_data:rchecks-v3p0-hd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_anom:rchecks-v3p0-hd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS HD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_data:rchecks-v3p0-hd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_anom:rchecks-v3p0-hd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS HD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_data:rchecks-v3p0-hd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_anom:rchecks-v3p0-hd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS HD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3hdCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * RCHECKS-UHD v3.0
+         */
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS UHD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_data:rchecks-v3p0-uhd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_anom:rchecks-v3p0-uhd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS UHD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_data:rchecks-v3p0-uhd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_anom:rchecks-v3p0-uhd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRPS v3.0 RCHECKS UHD',
+          description:
+            'CHIRPS RChecks is the CHIRPS dataset with precipitation station values embedded in the data as square blocks. This is used as a \"reality check\" to visually inspect station values and their effects on the final CHIRPS product before release every month. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/chirps/ewxchecks/index.html"> CHIRPS Reality Checks web page </a> for more information.',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_data:rchecks-v3p0-uhd_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_data_monthly_raster',
+                  legend: {
+                    style: 'rchecks_data_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_anom:rchecks-v3p0-uhd_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_anom_monthly_raster',
+                  legend: {
+                    style: 'rchecks_anom_monthly_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS UHD Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Zscore',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'rchecksv3uhdCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                   // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 6,
+                    },
+                  },
+                  style: 'rchecks_zsc_raster',
+                  legend: {
+                    style: 'rchecks_zsc_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3 RCHECKS Monthly Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -46996,7 +48484,7 @@ export const layers = {
           type: 'folder',
           title: 'ERA5 Precipitation',
           description:
-            'The Integrated Multi-satellitE Retrievals for GPM (IMERG) algorithm combines information from the GPM satellite constellation to estimate precipitation over the majority of the Earths surface.',
+            '',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -47292,7 +48780,7 @@ export const layers = {
           type: 'folder',
           title: 'ERA5 Precipitation',
           description:
-            'The Integrated Multi-satellitE Retrievals for GPM (IMERG) algorithm combines information from the GPM satellite constellation to estimate precipitation over the majority of the Earths surface.',
+            '',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -47588,7 +49076,7 @@ export const layers = {
           type: 'folder',
           title: 'ERA5 Precipitation',
           description:
-            'The Integrated Multi-satellitE Retrievals for GPM (IMERG) algorithm combines information from the GPM satellite constellation to estimate precipitation over the majority of the Earths surface.',
+            '',
           expanded: false,
           regionId: 'camcar',
           folder: [
