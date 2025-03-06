@@ -33092,6 +33092,196 @@ export const layers = {
             },
           ],
         },
+
+        /*
+         * CHPclim 2
+         */
+        {
+          type: 'folder',
+          title: 'CHPclim2',
+          description:
+            'The Climate Hazards Groups Precipitation Climatology, version 2 is a CHIRPS compatible (90&deg; S - 90&deg; N, 180&deg; E - 180&deg; W), 0.05&deg; resolution, 1981 to near-present gridded precipitation climatology. It is the basis for CHIRPS products. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/CHPclim/"> CHPclim web page </a> for more information.',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chpclim2AfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chpclim2_global_1_monthly_data:chpclim2_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHPclim 2 Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chpclim2_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHPclim2',
+          description:
+            'The Climate Hazards Groups Precipitation Climatology, version 2 is a CHIRPS compatible (90&deg; S - 90&deg; N, 180&deg; E - 180&deg; W), 0.05&deg; resolution, 1981 to near-present gridded precipitation climatology. It is the basis for CHIRPS products. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/CHPclim/"> CHPclim web page </a> for more information.',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chpclim2GlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chpclim2_global_1_monthly_data:chpclim2_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHPclim Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chpclim2_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHPclim2',
+          description:
+            'The Climate Hazards Groups Precipitation Climatology, version 2 is a CHIRPS compatible (90&deg; S - 90&deg; N, 180&deg; E - 180&deg; W), 0.05&deg; resolution, 1981 to near-present gridded precipitation climatology. It is the basis for CHIRPS products. <br>See <a target=\"_blank\" href="http://chc.ucsb.edu/data/CHPclim/"> CHPclim web page </a> for more information.',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chpclim2CamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chpclim2_global_1_monthly_data:chpclim2_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                    // gwc: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHPclim Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chpclim2_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
