@@ -24595,7 +24595,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3hdAfricaZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_zscore:rchecks-v3p0-hd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -24627,7 +24627,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -24759,7 +24759,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3hdGlobalZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_zscore:rchecks-v3p0-hd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -24791,7 +24791,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -24923,7 +24923,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3hdCamcarZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-HD_global_1_monthly_zscore:rchecks-v3p0-HD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-hd_global_1_monthly_zscore:rchecks-v3p0-hd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -24955,7 +24955,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-HD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-hd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -25091,7 +25091,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3uhdAfricaZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_zscore:rchecks-v3p0-uhd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -25123,7 +25123,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -25255,7 +25255,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3uhdGlobalZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_zscore:rchecks-v3p0-uhd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -25287,7 +25287,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -25419,7 +25419,7 @@ export const layers = {
                   type: 'layer',
                   id: 'rchecksv3uhdCamcarZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-UHD_global_1_monthly_zscore:rchecks-v3p0-UHD_global_1_monthly_zscore',
+                  wmstName: 'EWX_rchecks-v3p0-uhd_global_1_monthly_zscore:rchecks-v3p0-uhd_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -25451,7 +25451,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'rchecks-v3p0-UHD_global_1_monthly_zscore',
+                    rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
