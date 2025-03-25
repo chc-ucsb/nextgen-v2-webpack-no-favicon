@@ -54047,7 +54047,6 @@ export const layers = {
             "source": {
               "wms": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?",
               "wcs": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?",
-              //"gwc": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?"
             },
             "loadOnly": false,
             "display": false,
@@ -54064,7 +54063,6 @@ export const layers = {
             "source": {
               "wms": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?",
               "wcs": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?",
-              //"gwc": "https://chc-ewx3.chc.ucsb.edu:8443/geoserver/gwc/service/wms?"
             },
             "loadOnly": false,
             "display": false,
