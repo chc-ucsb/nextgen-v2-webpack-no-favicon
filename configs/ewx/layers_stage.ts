@@ -33521,6 +33521,193 @@ export const layers = {
       expanded:true,
       folder: [
         /*
+         * GEFS
+         */
+        {
+          type: 'folder',
+          title: 'GEFS',
+          description:
+            "The NCEP's Global Ensemble Forecast System (GEFS) 16 day precipitation forecasts. Precipitation forecasts are produced daily. Version 12 (v12) incorporates thenew GEFS forecast model v12, as of Oct. 2020, and uses the 0.5 deg (p5) resolution run for all days.",
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gefsAfricaData16Day',
+                  isWMST: true,
+                  wmstName: 'EWX_gefs_global_16day_data:gefs_global_16day_data',
+                  title: '16 Day',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GEFS 16 day Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gefs_global_16day_data',
+                    chartYAxisLabel: 'Rainfall Forecast (mm)',
+                  },
+                  timeseries: {
+                    type: 'day',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GEFS',
+          description:
+            "The NCEP's Global Ensemble Forecast System (GEFS) 16 day precipitation forecasts. Precipitation forecasts are produced daily. Version 12 (v12) incorporates thenew GEFS forecast model v12, as of Oct. 2020, and uses the 0.5 deg (p5) resolution run for all days.",
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gefsGlobalData16Day',
+                  isWMST: true,
+                  wmstName: 'EWX_gefs_global_16day_data:gefs_global_16day_data',
+                  title: '16 Day',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GEFS 16 day Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gefs_global_16day_data',
+                    chartYAxisLabel: 'Rainfall Forecast (mm)',
+                  },
+                  timeseries: {
+                    type: 'day',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GEFS',
+          description:
+            "The NCEP's Global Ensemble Forecast System (GEFS) 16 day precipitation forecasts. Precipitation forecasts are produced daily. Version 12 (v12) incorporates thenew GEFS forecast model v12, as of Oct. 2020, and uses the 0.5 deg (p5) resolution run for all days.",
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gefsCamcarData16Day',
+                  isWMST: true,
+                  wmstName: 'EWX_gefs_global_16day_data:gefs_global_16day_data',
+                  title: '16 Day',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GEFS 16 day Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gefs_global_16day_data',
+                    chartYAxisLabel: 'Rainfall Forecast (mm)',
+                  },
+                  timeseries: {
+                    type: 'day',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        
+        /*
          * CCD-B1
          */
         {
