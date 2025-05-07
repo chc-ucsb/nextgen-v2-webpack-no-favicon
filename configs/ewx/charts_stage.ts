@@ -3975,6 +3975,66 @@ export const charts = [
       },
     ],
   },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirpv3p0fillmapAfricaData1Monthly'],
+    boundaries: ['africaAdmin1'],
+    boundaryLabels: ['Admin1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirpv3p0fillmap_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirpv3p0fillmap_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirpv3p0fillmap_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirpv3p0fillmapAfricaDataAnnual'],
+    boundaries: ['africaAdmin1'],
+    boundaryLabels: ['Admin1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirpv3p0fillmap_global_year_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirpv3p0fillmap_global_year_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirpv3p0fillmap_global_year_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
 
 
   // CHIRPS v3.0 Africa

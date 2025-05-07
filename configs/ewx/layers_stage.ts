@@ -9002,6 +9002,57 @@ export const layers = {
                 },
               ],
             },
+            {
+              type: 'folder',
+              title: 'Station Density',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirpsv3stndensityAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirpsv3stndensity_global_1_monthly_data:chirpsv3stndensity_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3.0 Monthly Station Density',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirpsv3stndensity_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
           ],
         },
         {
@@ -10083,6 +10134,57 @@ export const layers = {
                 },
               ],
             },
+            {
+              type: 'folder',
+              title: 'Station Density',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirpsv3stndensityGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirpsv3stndensity_global_1_monthly_data:chirpsv3stndensity_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3.0 Monthly Station Density',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirpsv3stndensity_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
           ],
         },
         {
@@ -11159,6 +11261,57 @@ export const layers = {
                   },
                   timeseries: {
                     type: '6month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Station Density',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirpsv3stndensityCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirpsv3stndensity_global_1_monthly_data:chirpsv3stndensity_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHIRPS v3.0 Monthly Station Density',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirpsv3stndensity_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
                     source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
                   },
                 },
@@ -33706,7 +33859,7 @@ export const layers = {
             },
           ],
         },
-        
+
         /*
          * CCD-B1
          */
