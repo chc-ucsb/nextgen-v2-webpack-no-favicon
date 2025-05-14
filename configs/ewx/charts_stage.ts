@@ -4348,6 +4348,36 @@ export const charts = [
       },
     ],
   },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirpsv3stndensityAfricaData1Monthly'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirpsv3stndensity_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirpsv3stndensity_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirpsv3stndensity_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
 
   // CHIRTSmax Africa
   {
