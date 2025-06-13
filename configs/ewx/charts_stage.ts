@@ -4849,8 +4849,8 @@ export const charts = [
       staticSeasonNames: ['chirtmax_global_1_montly_mean'],
     },
     overlays: ['chirtmaxAfricaData1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -4879,8 +4879,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtmaxAfricaAnomaly1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -4909,8 +4909,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtmaxAfricaZscore1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -4942,8 +4942,8 @@ export const charts = [
       staticSeasonNames: ['chirts-era5tmax_global_pentad_mean'],
     },
     overlays: ['chirtsera5maxAfricaDataPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -4972,8 +4972,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5maxAfricaAnomalyPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5002,8 +5002,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5maxAfricaZscorePentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5033,8 +5033,8 @@ export const charts = [
       staticSeasonNames: ['chirts-era5tmax_global_1_monthly_mean'],
     },
     overlays: ['chirtsera5maxAfricaData1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5063,8 +5063,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5maxAfricaAnomaly1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5093,8 +5093,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5maxAfricaZscore1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5126,8 +5126,8 @@ export const charts = [
       staticSeasonNames: ['chirts-era5tmin_global_pentad_mean'],
     },
     overlays: ['chirtsra5minAfricaDataPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5156,8 +5156,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5minAfricaAnomalyPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5186,8 +5186,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5minAfricaZscorePentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5217,8 +5217,8 @@ export const charts = [
       staticSeasonNames: ['chirts-era5tmin_global_1_monthly_mean'],
     },
     overlays: ['chirtsra5minAfricaData1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5247,8 +5247,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5minAfricaAnomaly1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5277,8 +5277,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['chirtsera5minAfricaZscore1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5301,7 +5301,7 @@ export const charts = [
     ],
   },
 
-     // VPD ERA5 Africa
+  // VPD ERA5 Africa
   {
     source: {
       url:
@@ -5310,8 +5310,8 @@ export const charts = [
       staticSeasonNames: ['era5_vpd_global_pentad_mean'],
     },
     overlays: ['era5vpdAfricaDataPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5340,8 +5340,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['era5vpdAfricaAnomalyPentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5370,8 +5370,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['era5vpdAfricaZscorePentadal'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5401,8 +5401,8 @@ export const charts = [
       staticSeasonNames: ['era5_vpd_global_1_monthly_mean'],
     },
     overlays: ['era5vpdAfricaData1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5431,8 +5431,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['era5vpdAfricaAnomaly1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5461,8 +5461,8 @@ export const charts = [
       type: 'json',
     },
     overlays: ['era5vpdAfricaZscore1Monthly'],
-    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards'],
-    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards'],
+    boundaries: ['africaAdmin1','africaAdmin2','africaCropzones','kenyaWards','LakeVictoriaAdmin0'],
+    boundaryLabels: ['Admin1','Admin2','Crop Zones','Kenya Wards','Lake Victoria Basin'],
     chartTypes: [
       {
         graphTypes: ['bar', 'line'],
@@ -5577,6 +5577,8 @@ export const charts = [
       },
     ],
   },
+
+  
 
   // WBGT Beta Africa
   {
@@ -8799,6 +8801,190 @@ export const charts = [
     ],
   },
 
+  // CHIRTSvpd Global
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+      staticSeasonNames: ['chirtsvpd_global_pentad_mean'],
+    },
+    overlays: ['chirtsvpdGlobalDataPentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalAnomalyPentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalZscorePentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+      staticSeasonNames: ['chirtsvpd_global_1_monthly_mean'],
+    },
+    overlays: ['chirtsvpdGlobalData1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalAnomaly1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalZscore1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+
   // CHIRTSwbgt Central America
   {
     source: {
@@ -9261,7 +9447,7 @@ export const charts = [
     ],
   },
 
-    // WBGT Central America
+  // WBGT Central America
   {
     source: {
       url:
@@ -13360,6 +13546,190 @@ export const charts = [
         graphTypes: ['line', 'bar'],
         dataType: 'annual_cumulative',
         dataRoot: 'chirtmax_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+
+  // CHIRTSvpd Global
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+      staticSeasonNames: ['chirtsvpd_global_pentad_mean'],
+    },
+    overlays: ['chirtsvpdGlobalDataPentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalAnomalyPentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalZscorePentadal'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+      staticSeasonNames: ['chirtsvpd_global_1_monthly_mean'],
+    },
+    overlays: ['chirtsvpdGlobalData1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalAnomaly1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
+        yAxisRange: 'auto',
+      },
+    ],
+  },
+  {
+    source: {
+      url:
+        'https://chc-ewx3.chc.ucsb.edu/api/rest/timeseries/version/5.0/vector_dataset/{{vector_dataset}}/raster_dataset/{{raster_dataset}}/periodicity/{{periodicity}}/statistic/{{statistic}}/lat/{{lat}}/lon/{{lon}}/seasons/{{seasons}}/zonal_stat_type/mean/mean-median/true',
+      type: 'json',
+    },
+    overlays: ['chirtsvpdGlobalZscore1Monthly'],
+    boundaries: ['gbafricaAdmin1','gbafricaAdmin2','gbafricaCropzones','gbcamcarAdmin0','gbcamcarAdmin1','gbcamcarAdmin2','afghanAdmin1','afghanAdmin2','colombiaAdmin1','colombiaAdmin2','usAdmin1','usAdmin2','venezuelaAdmin1','venezuelaAdmin2','yemenAdmin1'],
+    boundaryLabels: ['Africa Admin 1','Africa Admin 2','African Crop Zones', 'Central America and Caribbean Countries','Central America and Caribbean Admin 1','Central America and Caribbean Admin 2','Afghanistan Admin 1','Afghanistan Admin 2','Colombia Admin 1','Colombia Admin 2','United States of America Admin 1','United States of America Admin 2','Venezuela Admin 1','Venezuela Admin 2','Yemen Admin 1'],
+    chartTypes: [
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'annual',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['bar', 'line'],
+        dataType: 'interannual',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
+        yAxisRange: 'auto',
+      },
+      {
+        graphTypes: ['line', 'bar'],
+        dataType: 'annual_cumulative',
+        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
     ],
