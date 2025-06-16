@@ -323,6 +323,15 @@ export const template = {
                   ],
                 },
                 {
+                  id: 'TanaRiverBasinAdmin0',
+                  featureInfo: [
+                    {
+                      propertyName: 'POLY_NAME',
+                      type: 'display',
+                    },
+                  ],
+                },
+                {
                   id: 'africaFNMU',
                   featureInfo: [
                     {
@@ -657,6 +666,15 @@ export const template = {
                 },
                 {
                   id: 'gbLakeVictoriaAdmin0',
+                  featureInfo: [
+                    {
+                      propertyName: 'POLY_NAME',
+                      type: 'display',
+                    },
+                  ],
+                },
+                {
+                  id: 'gbTanaRiverBasinAdmin0',
                   featureInfo: [
                     {
                       propertyName: 'POLY_NAME',
