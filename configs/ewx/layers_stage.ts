@@ -321,7 +321,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -543,7 +543,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -1000,7 +1000,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -1222,7 +1222,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -1679,7 +1679,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -1901,7 +1901,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -4064,7 +4064,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -4287,7 +4287,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -4745,7 +4745,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -4968,7 +4968,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -5426,7 +5426,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -5649,7 +5649,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -6111,7 +6111,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -6334,7 +6334,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -6792,7 +6792,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -7015,7 +7015,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
               {
@@ -7473,7 +7473,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -7696,7 +7696,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1981-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -8292,7 +8292,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -8648,7 +8648,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -9424,7 +9424,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -9780,7 +9780,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -10556,7 +10556,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -10912,7 +10912,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -11472,7 +11472,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -11611,7 +11611,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -11899,7 +11899,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -12038,7 +12038,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -12326,7 +12326,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -12465,7 +12465,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -12972,7 +12972,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -13324,7 +13324,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -14274,7 +14274,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -14626,7 +14626,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -15576,7 +15576,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -15928,7 +15928,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16579,7 +16579,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16629,7 +16629,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16740,7 +16740,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16790,7 +16790,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16901,7 +16901,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -16951,7 +16951,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17066,7 +17066,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17116,7 +17116,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17227,7 +17227,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17277,7 +17277,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17388,7 +17388,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17438,7 +17438,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17496,7 +17496,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTSvpd',
           description:
-            '',
+            'Vapor Pressure Deficit',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -17597,7 +17597,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17691,7 +17691,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17789,7 +17789,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTSvpd',
           description:
-            '',
+            'Vapor Pressure Deficit',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -17890,7 +17890,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -17984,7 +17984,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18082,7 +18082,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTSvpd',
           description:
-            '',
+            'Vapor Pressure Deficit',
           expanded: false,
           regionId: 'camcar',
           folder: [
@@ -18183,7 +18183,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18277,7 +18277,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18373,13 +18373,896 @@ export const layers = {
         },
 
         /*
+         * CHIRTShi
+         */
+        {
+          type: 'folder',
+          title: 'CHIRTShi',
+          description:
+            'Heat Index',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_data:chirtshi_global_pentad_data',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_pentad_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_data:chirtshi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Data',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_anom:chirtshi_global_pentad_anom',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_pentad_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_anom:chirtshi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Anomaly',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_1_monthly_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_zscore:chirtshi_global_pentad_zscore',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_pentad_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_zscore:chirtshi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirtshi_global_1_monthly_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRTShi',
+          description:
+            'Heat Index',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_data:chirtshi_global_pentad_data',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_pentad_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_data:chirtshi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Data',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_anom:chirtshi_global_pentad_anom',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_pentad_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_anom:chirtshi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Anomaly',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_1_monthly_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_zscore:chirtshi_global_pentad_zscore',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirtshi_global_pentad_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_zscore:chirtshi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirtshi_global_1_monthly_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRTShi',
+          description:
+            'Heat Index',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_data:chirtshi_global_pentad_data',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtshi_global_pentad_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_data:chirtshi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Data',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirtsvpd_global_1_monthly_data',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_anom:chirtshi_global_pentad_anom',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_pentad_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_anom:chirtshi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Anomaly',
+                  },
+                  unit: 'C',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirtshi_global_1_monthly_anom',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1983-2016 Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_pentad_zscore:chirtshi_global_pentad_zscore',
+                  title: 'Pentad',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTSvpd Pentadal Zscore',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'Zscore',
+                    rasterDataset: 'chirtshi_global_pentad_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtshiCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirtshi_global_1_monthly_zscore:chirtshi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTShi Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirtshi_global_1_monthly_zscore',
+                    chartYAxisLabel: '',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
          * CHIRTSwbgt
          */
         {
           type: 'folder',
           title: 'CHIRTSwbgt',
           description:
-            '',
+            'Wet Bulb Globe Temperature',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -18480,7 +19363,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18574,7 +19457,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18672,7 +19555,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTSwbgt',
           description:
-            '',
+            'Wet Bulb Globe Temperature',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -18773,7 +19656,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18867,7 +19750,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -18965,7 +19848,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTSwbgt',
           description:
-            '',
+            'Wet Bulb Globe Temperature',
           expanded: false,
           regionId: 'camcar',
           folder: [
@@ -19066,7 +19949,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -19160,7 +20043,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1983-2016 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -21859,7 +22742,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -21909,7 +22792,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22122,7 +23005,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22172,7 +23055,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22385,7 +23268,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22435,7 +23318,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22652,7 +23535,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22702,7 +23585,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22915,7 +23798,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -22965,7 +23848,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23178,7 +24061,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23228,7 +24111,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23445,7 +24328,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23495,7 +24378,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23708,7 +24591,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23758,7 +24641,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23971,7 +24854,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24021,7 +24904,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Zscore',
+              title: 'Z-Score (1991-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -39618,7 +40501,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -39972,7 +40855,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -40693,7 +41576,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -41047,7 +41930,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -41768,7 +42651,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -42122,7 +43005,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (2001-2020 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -43495,7 +44378,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmax',
           description:
-            '',
+            'Maximum Temperature',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -43596,7 +44479,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -43689,7 +44572,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -43786,7 +44669,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmax',
           description:
-            '',
+            'Maximum Temperature',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -43887,7 +44770,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -43980,7 +44863,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44077,7 +44960,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmax',
           description:
-            '',
+            'Maximum Temperature',
           expanded: false,
           regionId: 'camcar',
           folder: [
@@ -44178,7 +45061,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44271,7 +45154,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44372,7 +45255,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmin',
           description:
-            '',
+            'Minimum Temperature',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -44473,7 +45356,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44566,7 +45449,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44663,7 +45546,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmin',
           description:
-            '',
+            'Minimum Temperature',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -44764,7 +45647,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44857,7 +45740,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -44954,7 +45837,7 @@ export const layers = {
           type: 'folder',
           title: 'CHIRTS-ERA5 Tmin',
           description:
-            '',
+            'Minimum Temperature',
           expanded: false,
           regionId: 'camcar',
           folder: [
@@ -45055,7 +45938,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45148,7 +46031,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45349,7 +46232,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45442,7 +46325,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45639,7 +46522,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45732,7 +46615,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45928,7 +46811,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46021,7 +46904,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46103,6 +46986,1266 @@ export const layers = {
                   additionalAttributes: {
                     statistic: 'zscore',
                     rasterDataset: 'era5_vpd_global_1_monthly_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * CHIRTS-ERA5 HI
+         */
+        {
+          type: 'folder',
+          title: 'CHIRTS-ERA5 HI',
+          description:
+            'Heat Index',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_data:chirts-era5hi_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_pentad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaDataDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_data:chirts-era5hi_global_dekad_data',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_dekad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_data:chirts-era5hi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_anom:chirts-era5hi_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_pentad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaAnomalyDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_anom:chirts-era5hi_global_dekad_anom',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_dekad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_anom:chirts-era5hi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_zscore:chirts-era5hi_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_pentad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaZscoreDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_zscore:chirts-era5hi_global_dekad_zscore',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_dekad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_zscore:chirts-era5hi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRTS-ERA5 HI',
+          description:
+            'Heat Index',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_data:chirts-era5hi_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_pentad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalDataDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_data:chirts-era5hi_global_dekad_data',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_dekad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_data:chirts-era5hi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_anom:chirts-era5hi_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_pentad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalAnomalyDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_anom:chirts-era5hi_global_dekad_anom',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_dekad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_anom:chirts-era5hi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_zscore:chirts-era5hi_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_pentad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalZscoreDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_zscore:chirts-era5hi_global_dekad_zscore',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_dekad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_zscore:chirts-era5hi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHIRTS-ERA5 HI',
+          description:
+            'Heat Index',
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_data:chirts-era5hi_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Data ',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_pentad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarDataDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_data:chirts-era5hi_global_dekad_data',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Data ',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_dekad_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_data:chirts-era5hi_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_data',
+                  legend: {
+                    style: 'ir_temp_data',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Data',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_data',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_anom:chirts-era5hi_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_pentad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarAnomalyDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_anom:chirts-era5hi_global_dekad_anom',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_dekad_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_anom:chirts-era5hi_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'ir_temp_anom',
+                  legend: {
+                    style: 'ir_temp_anom',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Anomaly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_anom',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (1980-Present Climatology)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_pentad_zscore:chirts-era5hi_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_pentad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarZscoreDekadal',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_dekad_zscore:chirts-era5hi_global_dekad_zscore',
+                  title: 'Dekadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Dekadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_dekad_zscore',
+                    chartYAxisLabel: ' ',
+                  },
+                  timeseries: {
+                    type: 'dekad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'chirtsera5hiCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chirts-era5hi_global_1_monthly_zscore:chirts-era5hi_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'lst_zscore_raster',
+                  legend: {
+                    style: 'lst_zscore_raster',
+                    customImageURL: null,
+                    title: 'CHIRTS-ERA5 HI Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chirts-era5hi_global_1_monthly_zscore',
                     chartYAxisLabel: ' ',
                   },
                   timeseries: {
@@ -46265,7 +48408,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46401,7 +48544,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46684,7 +48827,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46820,7 +48963,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -47102,7 +49245,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -47238,7 +49381,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1980-Present Climatology)',
               expanded: false,
               folder: [
                 {
@@ -48737,13 +50880,13 @@ export const layers = {
         },
 
         /*
-         * CHGPS
+         * CHGPS p05
          */
         {
           type: 'folder',
-          title: 'CHGPS',
+          title: 'CHGPS p05',
           description:
-            'CHGPS',
+            'CHGPS p05',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -48754,9 +50897,9 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsAfricaData1Monthly',
+                  id: 'chgpsp05AfricaData1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_chgps_global_1_monthly_data:chgps_global_1_monthly_data',
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_data:chgpsp05_global_1_monthly_data',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -48788,7 +50931,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'data',
-                    rasterDataset: 'chgps_global_1_monthly_data',
+                    rasterDataset: 'chgpsp05_global_1_monthly_data',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -48805,9 +50948,9 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsAfricaAnomaly1Monthly',
+                  id: 'chgpsp05AfricaAnomaly1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_chgps_global_1_monthly_anom:chgps_global_1_monthly_anom',
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_anom:chgpsp05_global_1_monthly_anom',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -48838,7 +50981,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'anom',
-                    rasterDataset: 'chgps_global_1_monthly_anom',
+                    rasterDataset: 'chgpsp05_global_1_monthly_anom',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -48855,9 +50998,9 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsAfricaZscore1Monthly',
+                  id: 'chgpsp05AfricaZscore1Monthly',
                   isWMST: true,
-                  wmstName: 'EWX_chgps_global_1_monthly_zscore:chgps_global_1_monthly_zscore',
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_zscore:chgpsp05_global_1_monthly_zscore',
                   title: 'Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
@@ -48888,7 +51031,7 @@ export const layers = {
                   unit: '',
                   additionalAttributes: {
                     statistic: 'zscore',
-                    rasterDataset: 'chgps_global_1_monthly_zscore',
+                    rasterDataset: 'chgpsp05_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall',
                   },
                   timeseries: {
@@ -48902,9 +51045,9 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHGPS',
+          title: 'CHGPS p05',
           description:
-            'CHGPS',
+            'CHGPS p05',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -48915,7 +51058,333 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsGlobalData1Monthly',
+                  id: 'chgpsp05GlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_data:chgpsp05_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHGPS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgpsp05_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp05GlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_anom:chgpsp05_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'CHGPS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chgpsp05_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp05GlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_zscore:chgpsp05_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'CHGPS Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chgpsp05_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHGPS p05',
+          description:
+            'CHGPS p05',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp05CamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_data:chgpsp05_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHGPS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgpsp05_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp05CamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_anom:chgpsp05_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'CHGPS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chgpsp05_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp05CamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp05_global_1_monthly_zscore:chgpsp05_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'CHGPS Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chgpsp05_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * CHGPS p25
+         */
+        {
+          type: 'folder',
+          title: 'CHGPS p25',
+          description:
+            'CHGPS p25',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25AfricaData1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_data:chgps_global_1_monthly_data',
                   title: 'Monthly',
@@ -48966,7 +51435,7 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsGlobalAnomaly1Monthly',
+                  id: 'chgpsp25AfricaAnomaly1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_anom:chgps_global_1_monthly_anom',
                   title: 'Monthly',
@@ -49016,7 +51485,7 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsGlobalZscore1Monthly',
+                  id: 'chgpsp25AfricaZscore1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_zscore:chgps_global_1_monthly_zscore',
                   title: 'Monthly',
@@ -49063,11 +51532,11 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'CHGPS',
+          title: 'CHGPS p25',
           description:
-            'CHGPS',
+            'CHGPS p25',
           expanded: false,
-          regionId: 'camcar',
+          regionId: 'global',
           folder: [
             {
               type: 'folder',
@@ -49076,7 +51545,7 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsCamcarData1Monthly',
+                  id: 'chgpsp25GlobalData1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_data:chgps_global_1_monthly_data',
                   title: 'Monthly',
@@ -49127,7 +51596,7 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsCamcarAnomaly1Monthly',
+                  id: 'chgpsp25GlobalAnomaly1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_anom:chgps_global_1_monthly_anom',
                   title: 'Monthly',
@@ -49177,7 +51646,168 @@ export const layers = {
               folder: [
                 {
                   type: 'layer',
-                  id: 'chgpsCamcarZscore1Monthly',
+                  id: 'chgpsp25GlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgps_global_1_monthly_zscore:chgps_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'CHGPS Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'chgps_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'CHGPS p25',
+          description:
+            'CHGPS p25',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25CamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgps_global_1_monthly_data:chgps_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'CHGPS Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgps_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25CamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgps_global_1_monthly_anom:chgps_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'CHGPS Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'chgps_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25CamcarZscore1Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chgps_global_1_monthly_zscore:chgps_global_1_monthly_zscore',
                   title: 'Monthly',
@@ -54454,4 +57084,3 @@ export const layers = {
     },
   ],
 };
-
