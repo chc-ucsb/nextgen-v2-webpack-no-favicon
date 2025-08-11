@@ -2132,12 +2132,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2162,12 +2156,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2189,12 +2177,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_dekad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_dekad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2223,12 +2205,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2253,12 +2229,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2280,12 +2250,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2314,12 +2278,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2344,12 +2302,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2371,12 +2323,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_2_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_2_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2405,12 +2351,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2435,12 +2375,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2462,12 +2396,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_3_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_3_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2498,12 +2426,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2528,12 +2450,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2555,12 +2471,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_dekad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_dekad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2589,12 +2499,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2619,12 +2523,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2646,12 +2544,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2680,12 +2572,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2710,12 +2596,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2737,12 +2617,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_2_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_2_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -2771,12 +2645,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2801,12 +2669,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -2828,12 +2690,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_3_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_3_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4220,12 +4076,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4250,12 +4100,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4277,12 +4121,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4313,12 +4151,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4343,12 +4175,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4370,12 +4196,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4404,12 +4224,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4434,12 +4248,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4461,12 +4269,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4497,12 +4299,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4527,12 +4323,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4554,12 +4344,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtswbgt_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtswbgt_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4588,12 +4372,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4615,12 +4393,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -4648,16 +4420,10 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
 
-  // CHIRThi Africa
+  // CHIRTShi Africa
   {
     source: {
       url:
@@ -4678,12 +4444,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsmax_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsmax_global_pentad_data.data',
         yAxisRange: 'auto',
       },
@@ -4711,12 +4471,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4738,12 +4492,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtshi_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtshi_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4772,12 +4520,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4802,12 +4544,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4829,12 +4565,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtshi_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtshi_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4866,12 +4596,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4896,12 +4620,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4923,12 +4641,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -4959,12 +4671,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -4989,12 +4695,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5016,12 +4716,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5050,12 +4744,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5080,12 +4768,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5107,12 +4789,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5143,12 +4819,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5173,12 +4843,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5200,12 +4864,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5234,12 +4892,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5264,12 +4916,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5291,12 +4937,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5327,12 +4967,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5357,12 +4991,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5384,12 +5012,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5418,12 +5040,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5448,12 +5064,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5475,12 +5085,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5511,12 +5115,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5541,12 +5139,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5568,12 +5160,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5602,12 +5188,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5632,12 +5212,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5659,12 +5233,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5788,12 +5356,6 @@ export const charts = [
         dataRoot: 'wbgt_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5816,12 +5378,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
@@ -5850,12 +5406,6 @@ export const charts = [
         dataRoot: 'wbgt_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5878,12 +5428,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_dekad_data.data',
         yAxisRange: 'auto',
       },
@@ -5912,12 +5456,6 @@ export const charts = [
         dataRoot: 'wbgt_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -5940,12 +5478,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_dekad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_dekad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -5974,12 +5506,6 @@ export const charts = [
         dataRoot: 'wbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -6005,12 +5531,6 @@ export const charts = [
         dataRoot: 'wbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -6033,12 +5553,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -8639,12 +8153,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8669,12 +8177,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8696,12 +8198,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -8732,12 +8228,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8762,12 +8252,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8789,12 +8273,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -8825,12 +8303,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8855,12 +8327,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8882,12 +8348,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -8916,12 +8376,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8946,12 +8400,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -8973,12 +8421,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9009,12 +8451,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9040,12 +8476,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9067,12 +8497,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -9103,12 +8527,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9134,12 +8552,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9161,12 +8573,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtshi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtshi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -9197,12 +8603,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9227,12 +8627,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9254,12 +8648,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9288,12 +8676,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9318,12 +8700,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9345,12 +8721,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9381,12 +8751,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9411,12 +8775,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9438,12 +8796,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9472,12 +8824,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9502,12 +8848,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9529,12 +8869,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9565,12 +8899,6 @@ export const charts = [
         dataRoot: 'wbgt_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9596,12 +8924,6 @@ export const charts = [
         dataRoot: 'wbgt_global_dekad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9623,12 +8945,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
@@ -9657,12 +8973,6 @@ export const charts = [
         dataRoot: 'wbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9684,12 +8994,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -9720,12 +9024,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9750,12 +9048,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9777,12 +9069,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9811,12 +9097,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9841,12 +9121,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9868,12 +9142,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9904,12 +9172,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9934,12 +9196,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -9961,12 +9217,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -9995,12 +9245,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -10025,12 +9269,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -10052,12 +9290,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -12256,12 +11488,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12286,12 +11512,6 @@ export const charts = [
         dataRoot: 'lst006_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12313,12 +11533,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_dekad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_dekad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -12347,12 +11561,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12377,12 +11585,6 @@ export const charts = [
         dataRoot: 'lst006_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12404,12 +11606,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -12438,12 +11634,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12468,12 +11658,6 @@ export const charts = [
         dataRoot: 'lst006_global_2_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_2_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12495,12 +11679,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_2_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_2_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -12529,12 +11707,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12559,12 +11731,6 @@ export const charts = [
         dataRoot: 'lst006_global_3_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'lst006_global_3_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -12586,12 +11752,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'lst006_global_3_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'lst006_global_3_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -13484,12 +12644,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13514,12 +12668,6 @@ export const charts = [
         dataRoot: 'chirtsmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13541,12 +12689,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -13577,12 +12719,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13607,12 +12743,6 @@ export const charts = [
         dataRoot: 'chirtmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13634,12 +12764,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -13670,12 +12794,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13700,12 +12818,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13727,12 +12839,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -13761,12 +12867,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13791,12 +12891,6 @@ export const charts = [
         dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtsvpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13818,12 +12912,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtsvpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -13854,12 +12942,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13885,12 +12967,6 @@ export const charts = [
         dataRoot: 'chirtswbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtswbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13912,12 +12988,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtswbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -13948,12 +13018,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -13979,12 +13043,6 @@ export const charts = [
         dataRoot: 'chirtshi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirtshi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14006,12 +13064,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirtshi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirtshi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -14042,12 +13094,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14072,12 +13118,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14099,12 +13139,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14133,12 +13167,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14163,12 +13191,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14190,12 +13212,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmax_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14226,12 +13242,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14256,12 +13266,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14283,12 +13287,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14317,12 +13315,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14347,12 +13339,6 @@ export const charts = [
         dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14374,12 +13360,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5tmin_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14410,12 +13390,6 @@ export const charts = [
         dataRoot: 'wbgt_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14441,12 +13415,6 @@ export const charts = [
         dataRoot: 'wbgt_global_dekad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_dekad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14468,12 +13436,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_dekad_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_dekad_anom.data',
         yAxisRange: 'auto',
       },
@@ -14502,12 +13464,6 @@ export const charts = [
         dataRoot: 'wbgt_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'wbgt_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14529,12 +13485,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'wbgt_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'wbgt_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
@@ -14565,12 +13515,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14595,12 +13539,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14622,12 +13560,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14656,12 +13588,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14686,12 +13612,6 @@ export const charts = [
         dataRoot: 'era5_vpd_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'era5_vpd_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14713,12 +13633,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'era5_vpd_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14749,12 +13663,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14779,12 +13687,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_pentad_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_pentad_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14806,12 +13708,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_pentad_zscore.data',
         yAxisRange: 'auto',
       },
@@ -14840,12 +13736,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_data.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14870,12 +13760,6 @@ export const charts = [
         dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
         yAxisRange: 'auto',
       },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
-        dataRoot: 'chirts-era5hi_global_1_monthly_anom.data',
-        yAxisRange: 'auto',
-      },
     ],
   },
   {
@@ -14897,12 +13781,6 @@ export const charts = [
       {
         graphTypes: ['bar', 'line'],
         dataType: 'interannual',
-        dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
-        yAxisRange: 'auto',
-      },
-      {
-        graphTypes: ['line', 'bar'],
-        dataType: 'annual_cumulative',
         dataRoot: 'chirts-era5hi_global_1_monthly_zscore.data',
         yAxisRange: 'auto',
       },
