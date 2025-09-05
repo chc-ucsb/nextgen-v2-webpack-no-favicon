@@ -41670,7 +41670,7 @@ export const layers = {
                   id: 'chirtsera5maxAfricaData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_data:chirts-era5tmax_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -41807,7 +41807,7 @@ export const layers = {
                   id: 'chirtsera5maxAfricaAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_anom:chirts-era5tmax_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -41943,7 +41943,7 @@ export const layers = {
                   id: 'chirtsera5maxAfricaZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_zscore:chirts-era5tmax_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42091,7 +42091,7 @@ export const layers = {
                   id: 'chirtsera5maxGlobalData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_data:chirts-era5tmax_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42228,7 +42228,7 @@ export const layers = {
                   id: 'chirtsera5maxGlobalAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_anom:chirts-era5tmax_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42364,7 +42364,7 @@ export const layers = {
                   id: 'chirtsera5maxGlobalZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_zscore:chirts-era5tmax_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42512,7 +42512,7 @@ export const layers = {
                   id: 'chirtsera5maxCamcarData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_data:chirts-era5tmax_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42649,7 +42649,7 @@ export const layers = {
                   id: 'chirtsera5maxCamcarAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_anom:chirts-era5tmax_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42785,7 +42785,7 @@ export const layers = {
                   id: 'chirtsera5maxCamcarZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmax_global_3_monthly_zscore:chirts-era5tmax_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -42937,7 +42937,7 @@ export const layers = {
                   id: 'chirtsera5minAfricaData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_data:chirts-era5tmin_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43074,7 +43074,7 @@ export const layers = {
                   id: 'chirtsera5minAfricaAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_anom:chirts-era5tmin_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43210,7 +43210,7 @@ export const layers = {
                   id: 'chirtsera5minAfricaZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_zscore:chirts-era5tmin_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43358,7 +43358,7 @@ export const layers = {
                   id: 'chirtsera5minGlobalData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_data:chirts-era5tmin_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43495,7 +43495,7 @@ export const layers = {
                   id: 'chirtsera5minGlobalAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_anom:chirts-era5tmin_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43631,7 +43631,7 @@ export const layers = {
                   id: 'chirtsera5minGlobalZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_zscore:chirts-era5tmin_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43779,7 +43779,7 @@ export const layers = {
                   id: 'chirtsera5minCamcarData3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_data:chirts-era5tmin_global_3_monthly_data',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -43916,7 +43916,7 @@ export const layers = {
                   id: 'chirtsera5minCamcarAnomaly3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_anom:chirts-era5tmin_global_3_monthly_anom',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
@@ -44052,7 +44052,7 @@ export const layers = {
                   id: 'chirtsera5minCamcarZscore3Monthly',
                   isWMST: true,
                   wmstName: 'EWX_chirts-era5tmin_global_3_monthly_zscore:chirts-era5tmin_global_3_monthly_zscore',
-                  title: '3Monthly',
+                  title: '3-Monthly',
                   source: {
                     wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
                     wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
