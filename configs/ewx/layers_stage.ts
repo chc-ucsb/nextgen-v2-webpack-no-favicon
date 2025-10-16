@@ -24838,108 +24838,6 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Data 10km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd10kmAfricaData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-10km_global_1_monthly_data:rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 10km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
-              title: 'Data 11km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd11kmAfricaData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-11km_global_1_monthly_data:rchecks-v3p0-uhd-11km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 11km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-11km_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
               title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
@@ -25101,108 +24999,6 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Data 10km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd10kmGlobalData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-10km_global_1_monthly_data:rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 10km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
-              title: 'Data 11km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd11kmGlobalData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-11km_global_1_monthly_data:rchecks-v3p0-uhd-11km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 11km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-11km_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
               title: 'Anomaly (1991-2020 Climatology)',
               expanded: false,
               folder: [
@@ -25353,108 +25149,6 @@ export const layers = {
                   additionalAttributes: {
                     statistic: 'data',
                     rasterDataset: 'rchecks-v3p0-uhd_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
-              title: 'Data 10km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd10kmCamcarData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-10km_global_1_monthly_data:rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 10km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-10km_global_1_monthly_data',
-                    chartYAxisLabel: 'Rainfall (mm)',
-                  },
-                  timeseries: {
-                    type: 'month',
-                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
-                  },
-                },
-              ],
-            },
-            {
-              type: 'folder',
-              title: 'Data 11km',
-              expanded: true,
-              folder: [
-                {
-                  type: 'layer',
-                  id: 'rchecksv3uhd11kmCamcarData1Monthly',
-                  isWMST: true,
-                  wmstName: 'EWX_rchecks-v3p0-uhd-11km_global_1_monthly_data:rchecks-v3p0-uhd-11km_global_1_monthly_data',
-                  title: 'Monthly',
-                  source: {
-                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
-                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
-                  },
-                  loadOnly: false,
-                  display: false,
-                  active: false,
-                  mask: false,
-                  zIndex: 0,
-                  transparency: true,
-                  srs: 'EPSG:4326',
-                  resolution: '0.1',
-                  featureInfo: {
-                    GRAY_INDEX: {
-                      displayName: 'Pixel Value',
-                      displayValue: null,
-                      value: null,
-                      mapValues: [],
-                      significantDigits: 6,
-                    },
-                  },
-                  style: 'rchecks_data_monthly_raster',
-                  legend: {
-                    style: 'rchecks_data_monthly_raster',
-                    customImageURL: null,
-                    title: 'CHIRPS v3 RCHECKS UHD 11km Monthly Data (mm)',
-                  },
-                  unit: '',
-                  additionalAttributes: {
-                    statistic: 'data',
-                    rasterDataset: 'rchecks-v3p0-uhd-11km_global_1_monthly_data',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
@@ -50031,6 +49725,56 @@ export const layers = {
             },
             {
               type: 'folder',
+              title: 'CHC not GPCC Station Density',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25chcstnsAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp25chcstns_global_1_monthly_data:chgpsp25chcstns_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHGPS CHC Station Density Monthly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgpsp25chcstns_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
               title: 'Combined Station Density',
               expanded: false,
               folder: [
@@ -50381,6 +50125,56 @@ export const layers = {
                   additionalAttributes: {
                     statistic: 'data',
                     rasterDataset: 'chgpsp25chpsstndensity_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'CHC not GPCC Station Density',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25chcstnsGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp25chcstns_global_1_monthly_data:chgpsp25chcstns_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHGPS CHC Station Density Monthly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgpsp25chcstns_global_1_monthly_data',
                     chartYAxisLabel: 'Rainfall',
                   },
                   timeseries: {
@@ -50753,6 +50547,56 @@ export const layers = {
             },
             {
               type: 'folder',
+              title: 'CHC not GPCC Station Density',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'chgpsp25chcstnsCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_chgpsp25chcstns_global_1_monthly_data:chgpsp25chcstns_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'station_density_raster',
+                  legend: {
+                    style: 'station_density_raster',
+                    customImageURL: null,
+                    title: 'CHGPS CHC Station Density Monthly',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'chgpsp25chcstns_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
               title: 'Combined Station Density',
               expanded: false,
               folder: [
@@ -50859,9 +50703,9 @@ export const layers = {
          */
         {
           type: 'folder',
-          title: 'GPCC',
+          title: 'GPCC-v2022',
           description:
-            '',
+            'Global Precipitation Climatology Centre',
           expanded: false,
           regionId: 'af',
           folder: [
@@ -50918,7 +50762,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -50968,7 +50812,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -51020,9 +50864,9 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'GPCC',
+          title: 'GPCC-v2022',
           description:
-            '',
+            'Global Precipitation Climatology Centre',
           expanded: false,
           regionId: 'global',
           folder: [
@@ -51079,7 +50923,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -51129,7 +50973,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -51181,9 +51025,9 @@ export const layers = {
         },
         {
           type: 'folder',
-          title: 'GPCC',
+          title: 'GPCC-v2022',
           description:
-            '',
+            'Global Precipitation Climatology Centre',
           expanded: false,
           regionId: 'camcar',
           folder: [
@@ -51240,7 +51084,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -51290,7 +51134,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (Climatology 1981-2020)',
               expanded: false,
               folder: [
                 {
@@ -51329,6 +51173,493 @@ export const layers = {
                   additionalAttributes: {
                     statistic: 'zscore',
                     rasterDataset: 'gpcc_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
+         * GPCP v3.3
+         */
+        {
+          type: 'folder',
+          title: 'GPCP-v3.3',
+          description:
+            'Global Precipitation Climatology Project',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_data:gpcp_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Data (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gpcp_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_anom:gpcp_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Anomaly (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gpcp_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_zscore:gpcp_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gpcp_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GPCP-v3.3',
+          description:
+            'Global Precipitation Climatology Project',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_data:gpcp_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Data (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gpcp_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_anom:gpcp_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Anomaly (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gpcp_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_zscore:gpcp_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gpcp_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GPCP-v3.3',
+          description:
+            'Global Precipitation Climatology Project',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_data:gpcp_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Data (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gpcp_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_anom:gpcp_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Anomaly (mm)',
+                  },
+                  unit: 'mm',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gpcp_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score (Climatology 1991-2020)',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gpcpCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gpcp_global_1_monthly_zscore:gpcp_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: null,
+                    title: 'GPCP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gpcp_global_1_monthly_zscore',
                     chartYAxisLabel: 'Rainfall (mm)',
                   },
                   timeseries: {
