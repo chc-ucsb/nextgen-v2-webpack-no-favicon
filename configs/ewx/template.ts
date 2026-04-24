@@ -1,5 +1,5 @@
-import logoLeft from '../../assets/images/chc_fews_usaid_logo.png';
-import logoRight from '../../assets/images/fewsnet.png';
+import logoLeft from '../../assets/images/CHC_alt_UCSB_logo_color.png';
+import logoRight from '../../assets/images/FEWS_NET_Wordmark.png';
 
 export const template = {
   theme: 'ExtJSNeptune',
