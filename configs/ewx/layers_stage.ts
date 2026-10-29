@@ -455,7 +455,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -811,7 +811,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -1689,7 +1689,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -2045,7 +2045,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -2923,7 +2923,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -3279,7 +3279,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -5226,7 +5226,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -5365,7 +5365,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -5653,7 +5653,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -5792,7 +5792,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -6080,7 +6080,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -6219,7 +6219,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: true,
               folder: [
                 {
@@ -6726,7 +6726,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -7078,7 +7078,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -8028,7 +8028,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -8380,7 +8380,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -9330,7 +9330,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -9682,7 +9682,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23141,7 +23141,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23191,7 +23191,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23557,7 +23557,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23607,7 +23607,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -23973,7 +23973,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24023,7 +24023,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24393,7 +24393,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24443,7 +24443,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24605,7 +24605,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24655,7 +24655,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24817,7 +24817,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -24867,7 +24867,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25033,7 +25033,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25083,7 +25083,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25245,7 +25245,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25295,7 +25295,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25457,7 +25457,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -25507,7 +25507,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33339,7 +33339,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33389,7 +33389,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33500,7 +33500,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33550,7 +33550,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33661,7 +33661,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly (1991-2020 Climatology)',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -33711,7 +33711,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score (1991-2020 Climatology)',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -45943,6 +45943,880 @@ export const layers = {
         },
 
         /*
+         * GSMaP
+         */
+        {
+          type: 'folder',
+          title: 'GSMaP',
+          description:
+            '',
+          expanded: false,
+          regionId: 'af',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_data:gsmap_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GSMaP Pentadal Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_pentad_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_data:gsmap_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'GSMaP Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_anom:gsmap_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_anom_raster',
+                  legend: {
+                    style: 'precip_dekad_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_anom_raster.png',
+                    title: 'GSMaP Pentadal Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_pentad_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_anom:gsmap_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'GSMaP Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_zscore:gsmap_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_pentad_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapAfricaZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_zscore:gsmap_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GSMaP',
+          description:
+            '',
+          expanded: false,
+          regionId: 'global',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_data:gsmap_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GSMaP Pentadal Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_pentad_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_data:gsmap_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'GSMaP Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_anom:gsmap_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_anom_raster',
+                  legend: {
+                    style: 'precip_dekad_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_anom_raster.png',
+                    title: 'GSMaP Pentadal Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_pentad_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_anom:gsmap_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'GSMaP Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_zscore:gsmap_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_pentad_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapGlobalZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_zscore:gsmap_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          title: 'GSMaP',
+          description:
+            '',
+          expanded: false,
+          regionId: 'camcar',
+          folder: [
+            {
+              type: 'folder',
+              title: 'Data',
+              expanded: true,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarDataPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_data:gsmap_global_pentad_data',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_data_raster',
+                  legend: {
+                    style: 'precip_dekad_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_data_raster.png',
+                    title: 'GSMaP Pentadal Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_pentad_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarData1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_data:gsmap_global_1_monthly_data',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  active: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_data_raster',
+                  legend: {
+                    style: 'precip_monthly_data_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_data_raster.png',
+                    title: 'GSMaP Monthly Data (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'data',
+                    rasterDataset: 'gsmap_global_1_monthly_data',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Anomaly',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarAnomalyPentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_anom:gsmap_global_pentad_anom',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_dekad_anom_raster',
+                  legend: {
+                    style: 'precip_dekad_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_dekad_anom_raster.png',
+                    title: 'GSMaP Pentadal Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_pentad_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarAnomaly1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_anom:gsmap_global_1_monthly_anom',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_monthly_anom_raster',
+                  legend: {
+                    style: 'precip_monthly_anom_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_monthly_anom_raster.png',
+                    title: 'GSMaP Monthly Anomaly (mm)',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'anom',
+                    rasterDataset: 'gsmap_global_1_monthly_anom',
+                    chartYAxisLabel: 'Rainfall (mm)',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+            {
+              type: 'folder',
+              title: 'Z-Score',
+              expanded: false,
+              folder: [
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarZscorePentadal',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_pentad_zscore:gsmap_global_pentad_zscore',
+                  title: 'Pentadal',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Pentadal Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_pentad_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'pentad',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+                {
+                  type: 'layer',
+                  id: 'gsmapCamcarZscore1Monthly',
+                  isWMST: true,
+                  wmstName: 'EWX_gsmap_global_1_monthly_zscore:gsmap_global_1_monthly_zscore',
+                  title: 'Monthly',
+                  source: {
+                    wms: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wms?',
+                    wcs: 'https://chc-ewx3.chc.ucsb.edu:8443/geoserver/wcs?',
+                  },
+                  loadOnly: false,
+                  display: false,
+                  mask: false,
+                  zIndex: 0,
+                  transparency: true,
+                  srs: 'EPSG:4326',
+                  resolution: '0.1',
+                  featureInfo: {
+                    GRAY_INDEX: {
+                      displayName: 'Pixel Value',
+                      displayValue: null,
+                      value: null,
+                      mapValues: [],
+                      significantDigits: 2,
+                    },
+                  },
+                  style: 'precip_zscore_raster',
+                  legend: {
+                    style: 'precip_zscore_raster',
+                    customImageURL: 'https://chc-ewx3.chc.ucsb.edu/images/legends/precip_zscore_raster.png',
+                    title: 'GSMaP Monthly Z-Score',
+                  },
+                  unit: '',
+                  additionalAttributes: {
+                    statistic: 'zscore',
+                    rasterDataset: 'gsmap_global_1_monthly_zscore',
+                    chartYAxisLabel: 'Rainfall',
+                  },
+                  timeseries: {
+                    type: 'month',
+                    source: 'https://chc-ewx3.chc.ucsb.edu/api/rest/version/5.0/config',
+                  },
+                },
+              ],
+            },
+          ],
+        },
+
+        /*
          * GMCP
          */
         {
@@ -46493,7 +47367,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46543,7 +47417,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46904,7 +47778,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -46954,7 +47828,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -47315,7 +48189,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Anomaly',
+              title: 'Anomaly (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
@@ -47365,7 +48239,7 @@ export const layers = {
             },
             {
               type: 'folder',
-              title: 'Z-Score',
+              title: 'Z-Score (1996-2025 Climatology)',
               expanded: false,
               folder: [
                 {
